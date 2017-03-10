@@ -15,7 +15,7 @@
 
 
   <front>
-    <title abbrev="I-D">7322-bis</title>
+    <title abbrev="I-D">RFC Style Guide</title>
 
     <author initials="H." surname="Flanagan" fullname="Heather Flanagan">
       <organization>RFC Editor</organization>
@@ -730,16 +730,17 @@ version number), and the phrase "Work in Progress".  Authors may
 reference multiple versions of an I-D.  If the referenced I-D was
 also later published as an RFC, then that RFC must also be listed.</t>
 
-<t>[SYMBOLIC-TAG]  Last name, First initial., Ed. (if applicable)
+<figure><artwork><![CDATA[[SYMBOLIC-TAG]  Last name, First initial., Ed. (if applicable)
                    and First initial. Last name, Ed. (if
                    applicable), "I-D Title", Work in Progress,
-                   draft-string-NN, Month Year.</t>
-
+                   draft-string-NN, Month Year.
+]]></artwork></figure>
 <t>Example:</t>
 
-<t>[RFC-STYLE] Flanagan, H. and S. Ginoza, "RFC Style Guide",
+<figure><artwork><![CDATA[[RFC-STYLE] Flanagan, H. and S. Ginoza, "RFC Style Guide",
                Work in Progress, draft-flanagan-style-01,
-               June 2013.</t>
+               June 2013.
+]]></artwork></figure>
 
 </section>
 <section anchor="referencing-errata" title="Referencing Errata">
@@ -757,17 +758,20 @@ report is necessary:</t>
 <t>The following format is suggested when referencing a document or
 standard from another SDO in which authors are listed:</t>
 
-<t>[SYMBOLIC-TAG]
+<figure><artwork><![CDATA[[SYMBOLIC-TAG]
            Last name, First initial. and First initial. Last name,
            "Document Title", Document reference number, Date of
-           publication, <uri if="" available="">.</uri></t>
+           publication, <URI if available>.
+]]></artwork></figure>
 
-<t>[W3C.REC-xml11]
+<figure><artwork><![CDATA[[W3C.REC-xml11]
            Bray, T., Paoli, J., Sperberg-McQueen, C., Maler, E.,
            Yergeau, F., and J.  Cowan, "Extensible Markup Language
            (XML) 1.1 (Second Edition)", W3C Recommendation
            REC-xml11-20060816, August 2006,
-           <eref target="http://www.w3.org/TR/2006/REC-xml11-20060816">http://www.w3.org/TR/2006/REC-xml11-20060816</eref>.</t>
+           <http://www.w3.org/TR/2006/REC-xml11-20060816>.
+]]></artwork></figure>
+
 
 <t>Note that the order of authors in the list is the same as the order
 shown on the actual document and that the common, abbreviated form of
@@ -776,18 +780,20 @@ the SDO is used.</t>
 <t>Alternatively, when no list of authors is available, the following
 format is recommended:</t>
 
-<t>[SYMBOLIC-TAG]  Organization, "Document Title", Document
+<figure><artwork><![CDATA[[SYMBOLIC-TAG]  Organization, "Document Title", Document
                    reference number, Date of publication,
-                   <uri if="" available="">.</uri></t>
+                   <URI if available>.
+]]></artwork></figure>
 
 <t>Example:</t>
 
-<t>[IEEE802.1Q]  IEEE, "Local and Metropolitan Area
+<figure><artwork><![CDATA[[IEEE802.1Q]  IEEE, "Local and Metropolitan Area
                  Networks -- Media Access Control (MAC)
                  Bridges and Virtual Bridged Local Area
                  Networks", IEEE Std 802.1Q-2011, August 2011,
-                 &lt;http://standards.ieee.org/findstds/standard/
-                 802.1Q-2011.html&gt;.</t>
+                 <http://standards.ieee.org/findstds/standard/
+                 802.1Q-2011.html>
+]]></artwork></figure>
 
 </section>
 </section>
@@ -876,6 +882,7 @@ information in the Author�s Address section.</t>
     <author>
       <organization>RFC Editor</organization>
     </author>
+    <date/>
   </front>
 </reference>
 
@@ -889,6 +896,7 @@ information in the Author�s Address section.</t>
     <author>
       <organization>RFC Editor</organization>
     </author>
+    <date/>
   </front>
 </reference>
 
@@ -951,6 +959,7 @@ information in the Author�s Address section.</t>
     <author>
       <organization>RFC Editor</organization>
     </author>
+    <date/>
   </front>
 </reference>
 
@@ -973,10 +982,12 @@ information in the Author�s Address section.</t>
   </front>
   <seriesInfo name="FYI" value="90"/>
   <seriesInfo name="RFC" value="1150"/>
-<figure><artwork><![CDATA[
+
+  <annotation>
           Housley, R., "Conclusion of FYI RFC Sub-Series", RFC 6360,
           August 2011.
-]]></artwork></figure>
+  </annotation>
+
 </reference>
 
 
@@ -986,6 +997,7 @@ information in the Author�s Address section.</t>
     <author>
       <organization>IAB</organization>
     </author>
+    <date/>
   </front>
 </reference>
 
@@ -995,6 +1007,7 @@ information in the Author�s Address section.</t>
     <author>
       <organization>IETF</organization>
     </author>
+    <date/>
   </front>
 </reference>
 
@@ -1004,6 +1017,7 @@ information in the Author�s Address section.</t>
     <author>
       <organization>IETF Trust</organization>
     </author>
+    <date/>
   </front>
 </reference>
 
@@ -1013,6 +1027,7 @@ information in the Author�s Address section.</t>
     <author>
       <organization>ISO</organization>
     </author>
+    <date/>
   </front>
 </reference>
 
@@ -1033,6 +1048,7 @@ information in the Author�s Address section.</t>
     <author>
       <organization>IETF OPS Area</organization>
     </author>
+    <date/>
   </front>
 </reference>
 
@@ -1042,6 +1058,7 @@ information in the Author�s Address section.</t>
     <author>
       <organization>IETF OPS Area</organization>
     </author>
+    <date/>
   </front>
 </reference>
 
@@ -1051,6 +1068,7 @@ information in the Author�s Address section.</t>
     <author>
       <organization>IESG</organization>
     </author>
+    <date/>
   </front>
 </reference>
 
@@ -1068,7 +1086,7 @@ information in the Author�s Address section.</t>
     <author initials="B." surname="Braden"/>
     <date year="2004" month="August"/>
   </front>
-  <seriesInfo name="Internet-Draft"/>
+  <seriesInfo name="Internet-Draft" value="draft-rfc-editor-rfc2223bis-08"/>
 </reference>
 
 <reference anchor="STD66" target="https://www.rfc-editor.org/info/std66">
@@ -1090,6 +1108,7 @@ information in the Author�s Address section.</t>
     <author>
       <organization>RFC Editor</organization>
     </author>
+    <date/>
   </front>
 </reference>
 
@@ -1099,17 +1118,18 @@ information in the Author�s Address section.</t>
     <author>
       <organization>IETF Ops Area</organization>
     </author>
+    <date/>
   </front>
 </reference>
 
 </references>
 
-<section anchor="app-A" title="Related Procedures"/>"
+<section anchor="app-A" title="Related Procedures">
 
 <t>The following procedures are related to the application and updating
    of the RFC Style Guide.</t>
 
-<section anchor="app-a1" title="Dispute Resolution"/>
+<section anchor="app-a1" title="Dispute Resolution">
 
 <t>There are competing rationales for some of the rules described in
    this Guide, and the RFC Editor has selected the ones that work best
@@ -1124,7 +1144,7 @@ information in the Author�s Address section.</t>
 
 </section>
 
-<section anchor="app-a2"  title="Returning an I-D to the Document Stream"/>
+<section anchor="app-a2"  title="Returning an I-D to the Document Stream">
 
 <t>For a given document, if the RFC Editor determines that it cannot be
    edited without serious risk of altering the meaning of the technical
@@ -1136,7 +1156,7 @@ information in the Author�s Address section.</t>
 
 </section>
 
-<section anchor="app-a3"  title="Revising This Document and Associated Web Pages"/>
+<section anchor="app-a3"  title="Revising This Document and Associated Web Pages">
 
 <t>The RFC Series is continually evolving as a document series.  This
    document focuses on the fundamental and stable requirements that must
@@ -1157,7 +1177,7 @@ information in the Author�s Address section.</t>
 
 </section>
 
-<section anchor="contributors" title="Contributors"/>
+<section anchor="contributors" title="Contributors">
 
 <t>Alice Russo
    RFC Production Center</t>
