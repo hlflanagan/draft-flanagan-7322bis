@@ -5,11 +5,11 @@
 Network Working Group                                        H. Flanagan
 Internet-Draft                                                 S. Ginoza
 Intended status: Informational                                RFC Editor
-Expires: September 11, 2017                               March 10, 2017
+Expires: December 24, 2017                                 June 22, 2017
 
 
                             RFC Style Guide
-                       draft-flanagan-7322bis-00
+                       draft-flanagan-7322bis-01
 
 Abstract
 
@@ -36,7 +36,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on September 11, 2017.
+   This Internet-Draft will expire on December 24, 2017.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Flanagan & Ginoza      Expires September 11, 2017               [Page 1]
+Flanagan & Ginoza       Expires December 24, 2017               [Page 1]
 
-Internet-Draft                  7322-bis                      March 2017
+Internet-Draft                  7322-bis                       June 2017
 
 
    the Trust Legal Provisions and are provided without warranty as
@@ -71,52 +71,52 @@ Table of Contents
      3.3.  DNS Names and URIs  . . . . . . . . . . . . . . . . . . .   5
      3.4.  Capitalization  . . . . . . . . . . . . . . . . . . . . .   5
      3.5.  Citations . . . . . . . . . . . . . . . . . . . . . . . .   6
-     3.6.  Abbreviation Rules  . . . . . . . . . . . . . . . . . . .   6
+     3.6.  Abbreviation Rules  . . . . . . . . . . . . . . . . . . .   7
      3.7.  RFCs as Compounds . . . . . . . . . . . . . . . . . . . .   7
-     3.8.  Images and Figures  . . . . . . . . . . . . . . . . . . .   7
+     3.8.  Images and Figures  . . . . . . . . . . . . . . . . . . .   8
    4.  Structure of an RFC . . . . . . . . . . . . . . . . . . . . .   8
      4.1.  First-Page Header . . . . . . . . . . . . . . . . . . . .  10
        4.1.1.  Author/Editor . . . . . . . . . . . . . . . . . . . .  10
-       4.1.2.  Organization  . . . . . . . . . . . . . . . . . . . .  10
+       4.1.2.  Organization  . . . . . . . . . . . . . . . . . . . .  11
        4.1.3.  ISSN: 2070-1721 . . . . . . . . . . . . . . . . . . .  11
        4.1.4.  Updates and Obsoletes . . . . . . . . . . . . . . . .  11
      4.2.  Full Title  . . . . . . . . . . . . . . . . . . . . . . .  11
      4.3.  Abstract Section  . . . . . . . . . . . . . . . . . . . .  12
      4.4.  RFC Editor or Stream Notes Section  . . . . . . . . . . .  12
-     4.5.  Status of This Memo Section . . . . . . . . . . . . . . .  12
-     4.6.  Copyright, Licenses, and IPR Boilerplate Section  . . . .  12
+     4.5.  Status of This Memo Section . . . . . . . . . . . . . . .  13
+     4.6.  Copyright, Licenses, and IPR Boilerplate Section  . . . .  13
      4.7.  Table of Contents Section . . . . . . . . . . . . . . . .  13
      4.8.  Body of the Memo  . . . . . . . . . . . . . . . . . . . .  13
        4.8.1.  Introduction Section  . . . . . . . . . . . . . . . .  13
        4.8.2.  Requirements Language Section . . . . . . . . . . . .  13
        4.8.3.  IANA Considerations Section . . . . . . . . . . . . .  14
        4.8.4.  Internationalization Considerations Section . . . . .  14
-       4.8.5.  Security Considerations Section . . . . . . . . . . .  14
+       4.8.5.  Security Considerations Section . . . . . . . . . . .  15
        4.8.6.  References Section  . . . . . . . . . . . . . . . . .  15
-     4.9.  Appendices Section  . . . . . . . . . . . . . . . . . . .  20
-     4.10. Index . . . . . . . . . . . . . . . . . . . . . . . . . .  20
-     4.11. Acknowledgements Section  . . . . . . . . . . . . . . . .  20
-     4.12. Contributors Section  . . . . . . . . . . . . . . . . . .  20
+     4.9.  Appendices Section  . . . . . . . . . . . . . . . . . . .  21
+     4.10. Acknowledgements Section  . . . . . . . . . . . . . . . .  21
+     4.11. Contributors Section  . . . . . . . . . . . . . . . . . .  21
+     4.12. Index . . . . . . . . . . . . . . . . . . . . . . . . . .  21
      4.13. Author's Address or Authors' Addresses Section  . . . . .  21
-   5.  Security Considerations . . . . . . . . . . . . . . . . . . .  21
-   6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  21
-   7.  References  . . . . . . . . . . . . . . . . . . . . . . . . .  21
-     7.1.  Normative References  . . . . . . . . . . . . . . . . . .  22
-     7.2.  Informative References  . . . . . . . . . . . . . . . . .  22
-   Appendix A.  Related Procedures . . . . . . . . . . . . . . . . .  25
-     A.1.  Dispute Resolution  . . . . . . . . . . . . . . . . . . .  25
-     A.2.  Returning an I-D to the Document Stream . . . . . . . . .  25
+   5.  Security Considerations . . . . . . . . . . . . . . . . . . .  22
+   6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  22
+   7.  Change Log  . . . . . . . . . . . . . . . . . . . . . . . . .  22
+   8.  References  . . . . . . . . . . . . . . . . . . . . . . . . .  22
+     8.1.  Normative References  . . . . . . . . . . . . . . . . . .  22
+     8.2.  Informative References  . . . . . . . . . . . . . . . . .  22
+   Appendix A.  Related Procedures . . . . . . . . . . . . . . . . .  26
+     A.1.  Dispute Resolution  . . . . . . . . . . . . . . . . . . .  26
 
 
 
-Flanagan & Ginoza      Expires September 11, 2017               [Page 2]
+Flanagan & Ginoza       Expires December 24, 2017               [Page 2]
 
-Internet-Draft                  7322-bis                      March 2017
+Internet-Draft                  7322-bis                       June 2017
 
 
-     A.3.  Revising This Document and Associated Web Pages . . . . .  25
-   Appendix B.  Contributors . . . . . . . . . . . . . . . . . . . .  26
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  26
+     A.2.  Returning an I-D to the Document Stream . . . . . . . . .  26
+     A.3.  Revising This Document and Associated Web Pages . . . . .  26
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  27
 
 1.  Introduction
 
@@ -165,9 +165,9 @@ Internet-Draft                  7322-bis                      March 2017
 
 
 
-Flanagan & Ginoza      Expires September 11, 2017               [Page 3]
+Flanagan & Ginoza       Expires December 24, 2017               [Page 3]
 
-Internet-Draft                  7322-bis                      March 2017
+Internet-Draft                  7322-bis                       June 2017
 
 
    o  Correct larger content/clarity issues; flag any unclear passages
@@ -221,9 +221,9 @@ Internet-Draft                  7322-bis                      March 2017
 
 
 
-Flanagan & Ginoza      Expires September 11, 2017               [Page 4]
+Flanagan & Ginoza       Expires December 24, 2017               [Page 4]
 
-Internet-Draft                  7322-bis                      March 2017
+Internet-Draft                  7322-bis                       June 2017
 
 
 3.1.  Language
@@ -262,7 +262,7 @@ Internet-Draft                  7322-bis                      March 2017
 
    Angle brackets are strongly recommended around URIs [STD66], e.g.,
 
-   <http://example.com/ >
+   <https://example.com/ >
 
    The use of HTTPS rather than HTTP is strongly encouraged.
 
@@ -277,9 +277,9 @@ Internet-Draft                  7322-bis                      March 2017
 
 
 
-Flanagan & Ginoza      Expires September 11, 2017               [Page 5]
+Flanagan & Ginoza       Expires December 24, 2017               [Page 5]
 
-Internet-Draft                  7322-bis                      March 2017
+Internet-Draft                  7322-bis                       June 2017
 
 
       case").  Typically, all words in a title will be capitalized,
@@ -290,6 +290,11 @@ Internet-Draft                  7322-bis                      March 2017
 
    o  Titles of figures may be in sentence form or use title case.
 
+   o  When the term 'working group' or 'research group' is used as part
+      of a specific group name, it will be capitalized (e.g., kitten
+      Working Group, Crypto Forum Research Group).  When used to
+      generally refer to groups, it will be downcased.
+
 3.5.  Citations
 
    o  References and citations must match.  That is, there must be a
@@ -297,11 +302,17 @@ Internet-Draft                  7322-bis                      March 2017
 
    o  Citations must be enclosed in square brackets (e.g., "[CITE1]").
 
-   o  A citation/reference tag must not contain spaces.
+   o  Citations are restricted to ASCII-only characters.[RFC7997]
+
+   o  Citations must begin with a number or a letter, and may contain
+      digits, letters, colons, hyphens, underscores, or dots.
+
+      *  Example: "[IEEE.802.15.4]" rather than "[.802.15.4]"
 
       *  Example: "[RFC2119]" rather than "[RFC 2119]"
 
-   o  However, the proper textual naming of an RFC contains a space.
+   o  Citations may not include spaces, commas, quotation marks, or
+      other punctuation (!, ?, etc.).
 
       *  Example: "See RFC 2119 [BCP14] for more information."
 
@@ -309,14 +320,23 @@ Internet-Draft                  7322-bis                      March 2017
       must use section numbers rather than page numbers, as pagination
       may change per format and device.
 
-   o  An in-text citation may a) follow the subject for which it is
-      being cited or b) be read as part of the text.  For example:
+   o  An citation may a) follow the subject for which it is being cited
+      or b) be read as part of the text.  For example:
 
       *  a) As part of the transition to IPv6, NAT64 [RFC6146] and DNS64
          [RFC6147] technologies will be utilized by some access networks
          to provide IPv4 connectivity for IPv6-only nodes [RFC6144].
 
    or
+
+
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017               [Page 6]
+
+Internet-Draft                  7322-bis                       June 2017
+
 
       b) Note that SAVI raises a number of important privacy
       considerations that are discussed more fully in [RFC6959].
@@ -330,14 +350,6 @@ Internet-Draft                  7322-bis                      March 2017
    use in the document.  The full expansion of the text should be
    followed by the abbreviation itself in parentheses.  The exception is
    an abbreviation that is so common that the readership of RFCs can be
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017               [Page 6]
-
-Internet-Draft                  7322-bis                      March 2017
-
-
    expected to recognize it immediately; examples include (but are not
    limited to) TCP, IP, SNMP, and HTTP.  The online list of
    abbreviations [ABBR] provides guidance.  Some cases are marginal, and
@@ -374,6 +386,14 @@ Internet-Draft                  7322-bis                      March 2017
    o  no hyphen between "RFC" and the number (don't use RFC-5011-style
       rollover)
 
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017               [Page 7]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
    o  avoid hyphenating citations with text (don't use [RFC5011]-style
       rollover)
 
@@ -384,19 +404,9 @@ Internet-Draft                  7322-bis                      March 2017
    with low chance of misunderstanding.  Technically correct but
    confusing images get in the way of understanding and implementation.
 
-
-
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017               [Page 7]
-
-Internet-Draft                  7322-bis                      March 2017
-
-
    o  Images should be legible when displayed on a standard screen
-      (1920x1080) and printed on either A4 or US Letter paper.  Any text
-      within the diagram should be readable at that resolution.
+      (1920x1080) and printable on either A4 or US Letter paper.  Any
+      text within the diagram should be readable at that resolution.
 
    o  Authors should use black on white, not white on black.  No color
       or greyscale [RFC7990][RFC7996]
@@ -409,11 +419,11 @@ Internet-Draft                  7322-bis                      March 2017
    o  San-serif fonts are generally considered more readable for digital
       material. [citation needed]
 
-   o  The style of diagrams within an RFC should be consistent (fonts,
-      shapes, lines).  For example, if you you use a dashed line to
-      indicate a certain type of packet flow, then continue to use that
-      style of line consistently.  This is encouraged within a single
-      RFC and also within a cluster of RFCs.
+   o  The style of diagrams within an RFC should be consistent both
+      within a single RFC and within a cluster of RFCs (fonts, shapes,
+      lines).  For example, if you you use a dashed line to indicate a
+      certain type of packet flow, then continue to use that style of
+      line consistently.
 
    o  Line styles, including thickness, color, and arrow types, are easy
       methods to convey a particular meaning to the reader.
@@ -432,6 +442,14 @@ Internet-Draft                  7322-bis                      March 2017
    nothing but subsections.  The rules for each of these elements are
    described in more detail below.
 
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017               [Page 8]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
       First-page header * [Required]
 
       Title [Required]
@@ -441,14 +459,6 @@ Internet-Draft                  7322-bis                      March 2017
       RFC Editor or Stream Note * [Upon request]
 
       Status of This Memo * [Required]
-
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017               [Page 8]
-
-Internet-Draft                  7322-bis                      March 2017
-
 
       Copyright Notice * [Required]
 
@@ -484,11 +494,19 @@ Internet-Draft                  7322-bis                      March 2017
 
          Appendix B.
 
-      Index
-
       Acknowledgements
 
       Contributors
+
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017               [Page 9]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
+      Index
 
       Author's Address [Required]
 
@@ -497,14 +515,6 @@ Internet-Draft                  7322-bis                      March 2017
    memo, the order above is required.  The section numbers above are for
    illustrative purposes; they are not intended to correspond to
    required numbering in an RFC.
-
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017               [Page 9]
-
-Internet-Draft                  7322-bis                      March 2017
-
 
    The elements preceding the body of the memo should not be numbered.
    Typically, the body of the memo will have numbered sections and the
@@ -520,8 +530,9 @@ Internet-Draft                  7322-bis                      March 2017
 
 4.1.1.  Author/Editor
 
-   The determination of who should be listed as an author or editor on
-   an RFC is made by the stream.
+   The final determination of who should be listed as an author or
+   editor on an RFC is made by the stream, as is whether or not
+   including author affiliation is required.
 
    The author's name (initial followed by family name) appears on the
    first line of the heading.  Some variation, such as additional
@@ -540,6 +551,17 @@ Internet-Draft                  7322-bis                      March 2017
    off on the document during the AUTH48 process and respond to
    inquiries, such as errata.
 
+
+
+
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 10]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
 4.1.2.  Organization
 
    The author's organization is indicated on the line following the
@@ -554,14 +576,6 @@ Internet-Draft                  7322-bis                      March 2017
 
    If an author cannot or will not provide an affiliation for any
    reason, "Independent", "Individual Contributor", "Retired", or some
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 10]
-
-Internet-Draft                  7322-bis                      March 2017
-
-
    other term that appropriately describes the author's affiliation may
    be used.  Alternatively, a blank line may be included in the document
    header when no affiliation is provided.
@@ -597,6 +611,13 @@ Internet-Draft                  7322-bis                      March 2017
    encountered (see Section 3.6 for additional guidance on
    abbreviations).
 
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 11]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
    It is often helpful to follow the expansion with the parenthesized
    abbreviation, as in the following example:
 
@@ -607,16 +628,6 @@ Internet-Draft                  7322-bis                      March 2017
    company's private protocol should bear a title of the form "Foo's ...
    Protocol" (where Foo is a company name), to clearly differentiate it
    from a protocol of more general applicability.
-
-
-
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 11]
-
-Internet-Draft                  7322-bis                      March 2017
-
 
 4.3.  Abstract Section
 
@@ -651,6 +662,18 @@ Internet-Draft                  7322-bis                      March 2017
    by the RFC Editor to highlight special circumstances surrounding an
    RFC.
 
+
+
+
+
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 12]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
 4.5.  Status of This Memo Section
 
    The RFC Editor will supply an appropriate "Status of This Memo" as
@@ -661,18 +684,6 @@ Internet-Draft                  7322-bis                      March 2017
 
    The full copyright and license notices are available on the IETF
    Trust Legal Provisions documents website [IETF-TRUST].
-
-
-
-
-
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 12]
-
-Internet-Draft                  7322-bis                      March 2017
-
 
 4.7.  Table of Contents Section
 
@@ -711,6 +722,14 @@ Internet-Draft                  7322-bis                      March 2017
    2119 [BCP14] defines a default interpretation of these capitalized
    words in IETF documents.  If this interpretation is used, RFC 2119
    must be cited (as specified in RFC 2119) and included as a normative
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 13]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
    reference.  Otherwise, the correct interpretation must be specified
    in the document.
 
@@ -722,13 +741,6 @@ Internet-Draft                  7322-bis                      March 2017
    document and are intended to provide guidance to implementers about
    specific technical features, generally governed by considerations of
    interoperability.  RFC 2119 says:
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 13]
-
-Internet-Draft                  7322-bis                      March 2017
-
 
    Imperatives of the type defined in this memo must be used with care
    and sparingly.  In particular, they MUST only be used where it is
@@ -766,6 +778,14 @@ Internet-Draft                  7322-bis                      March 2017
    section describing those issues; see "IETF Policy on Character Sets
    and Languages" [BCP18], Section 6, for more information.
 
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 14]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
 4.8.5.  Security Considerations Section
 
    All RFCs must contain a section that discusses the security
@@ -777,14 +797,6 @@ Internet-Draft                  7322-bis                      March 2017
    YANG modules also exists.  See "Security Guidelines for IETF MIB
    Modules" [MIB-SEC] and "yang module security considerations"
    [YANG-SEC] for details.
-
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 14]
-
-Internet-Draft                  7322-bis                      March 2017
-
 
 4.8.6.  References Section
 
@@ -822,6 +834,14 @@ Internet-Draft                  7322-bis                      March 2017
 
    s.  References
 
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 15]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
    s.1.  Normative References
 
            xxx
@@ -833,14 +853,6 @@ Internet-Draft                  7322-bis                      March 2017
            xxx
            ...
            xxx
-
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 15]
-
-Internet-Draft                  7322-bis                      March 2017
-
 
    References will generally appear in alphanumeric order by citation
    tag.  Where there are only normative or informative references, no
@@ -879,36 +891,41 @@ Internet-Draft                  7322-bis                      March 2017
 
    For one author or editor:
 
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 16]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
    [RFCXXXX] Last name, First initial., Ed. (if applicable), "RFC
    Title", Stream, Sub-series number (if applicable), RFC number, DOI,
-   Date of publication, http://www.rfc-editor.org/info/rfc# .
+   Date of publication, http://www.rfc-editor.org/info/rfc#.
 
    Example:
 
    [RFC3080] Rose, M., "The Blocks Extensible Exchange Protocol Core,"
    IETF, RFC 3080, DOI 10.17487/RFC3080, March 2001, http://www.rfc-
-   editor.org/info/rfc3080 .
+   editor.org/info/rfc3080.
+
+   [RFC8157] Leymann, N., Heidemann, C., Zhang, M., Sarikaya, B., and M.
+   Cullen, "Huawei's GRE Tunnel Bonding Protocol", independent, RFC
+   8157, DOI 10.17487/RFC8157, May 2017, http://www.rfc-editor.org/info/
+   rfc8157.
 
    For two authors or editors:
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 16]
-
-Internet-Draft                  7322-bis                      March 2017
-
 
    [RFCXXXX] Last name, First initial., Ed. (if applicable) and First
    initial.  Last name, Ed. (if applicable), "RFC Title", Stream, Sub-
    series number (if applicable), RFC number, DOI, Date of publication,
-   http://www.rfc-editor.org/info/rfc# .
+   http://www.rfc-editor.org/info/rfc#.
 
    Example:
 
    [RFC6323] Renker, G. and G.  Fairhurst, "Sender RTT Estimate Option
    for the Datagram Congestion Control Protocol (DCCP)", IETF, RFC 6323,
    DOI 10.17487/RFC6323, July 2011, http://www.rfc-editor.org/info/
-   rfc6323 .
+   rfc6323.
 
    For three or more authors or editors:
 
@@ -916,19 +933,27 @@ Internet-Draft                  7322-bis                      March 2017
    First initial., Ed. (if applicable), and First initial.  Last name,
    Ed. (if applicable), "RFC Title", Stream, Sub-series number (if
    applicable), RFC number, DOI, Date of publication, http://www.rfc-
-   editor.org/info/rfc# .
+   editor.org/info/rfc#.
 
    Example:
 
    [RFC6429] Bashyam, M., Jethanandani, M., and A.  Ramaiah, "TCP Sender
    Clarification for Persist Condition", IETF, RFC 6429, DOI 10.17487/
-   RFC6429, December 2011, http://www.rfc-editor.org/info/rfc6429 .
+   RFC6429, December 2011, http://www.rfc-editor.org/info/rfc6429.
 
 4.8.6.3.  Referencing STDs and BCPs
 
    Internet Standards (STDs) and Best Current Practices (BCPs) may
    consist of a single RFC or multiple RFCs.  When an STD or BCP that
    contains multiple RFCs is referenced, the reference entry should
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 17]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
    include ALL of the RFCs comprising that sub-series.  The authors
    should refer to specific RFC numbers as part of the text (not as
    citations) and cite the sub-series number.  Inclusion of the URI to
@@ -941,22 +966,13 @@ Internet-Draft                  7322-bis                      March 2017
 
    [STDXXX]  Last name, First initial., Ed. (if applicable), "RFC
    Title", Stream, Sub-series number, RFC number, DOI, Date of
-   publication, http://www.rfc-editor.org/info/std# .
+   publication, http://www.rfc-editor.org/info/std#.
 
    Example:
 
-
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 17]
-
-Internet-Draft                  7322-bis                      March 2017
-
-
    [STD72]  Gellens, R. and J.  Klensin, "Message Submission for Mail",
    IETF, STD 72, RFC 6409, DOI 10.17487/RFC6409, November 2011,
-   http://www.rfc-editor.org/info/std72 .
+   http://www.rfc-editor.org/info/std72.
 
    For an STD or BCP that contains two or more RFCs:
 
@@ -982,6 +998,18 @@ Internet-Draft                  7322-bis                      March 2017
 
             <http://www.rfc-editor.org/info/std13>
 
+
+
+
+
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 18]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
 4.8.6.4.  Referencing Internet-Drafts
 
    References to Internet-Drafts may only appear as informative
@@ -1001,23 +1029,16 @@ Internet-Draft                  7322-bis                      March 2017
    [RFC-STYLE] Flanagan, H. and S.  Ginoza, "RFC Style Guide", Work in
    Progress, draft-flanagan-style-01, June 2013.
 
-
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 18]
-
-Internet-Draft                  7322-bis                      March 2017
-
-
 4.8.6.5.  Referencing Errata
 
    The following format is required when a reference to an erratum
    report is necessary:
 
-   [ErrNumber]  RFC Errata, Erratum ID number, RFC number, <URI>.
+   [ErrNumber]  RFC Errata, Erratum ID number, RFC number,
+   <https://www.rfc-editor.org/errata/eid####>.
 
-   [Err1912]  RFC Errata, Erratum ID 1912, RFC 2978, xxx.
+   [Err1912]  RFC Errata, Erratum ID 1912, RFC 2978, <https://www.rfc-
+   editor.org/errata/eid1912 >.
 
 4.8.6.6.  Referencing Other Standards Development Organizations (SDOs)
 
@@ -1038,6 +1059,13 @@ Internet-Draft                  7322-bis                      March 2017
 
       Yergeau, F., and J.  Cowan, "Extensible Markup Language
 
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 19]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
       (XML) 1.1 (Second Edition)", W3C Recommendation
 
       REC-xml11-20060816, August 2006,
@@ -1055,16 +1083,14 @@ Internet-Draft                  7322-bis                      March 2017
                       reference number, Date of publication,
                       <URI if available>.
 
-   Example:
+   Example (undated; see note below):
 
+   [IEEE.802.15.4]
+              IEEE, "IEEE Standard for Low-Rate Wireless Networks",
+              IEEE 802.15.4,
+              <http://ieeexplore.ieee.org/document/7460875/>.
 
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 19]
-
-Internet-Draft                  7322-bis                      March 2017
-
+   Example (dated; see note below):
 
    [IEEE802.1Q]  IEEE, "Local and Metropolitan Area
                     Networks -- Media Access Control (MAC)
@@ -1088,42 +1114,36 @@ Internet-Draft                  7322-bis                      March 2017
 
       listname mailing list, DD Month YYYY, <URL >.
 
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 20]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
 4.9.  Appendices Section
 
    The RFC Editor recommends placing references before the Appendices.
    Appendices should be labeled as "Appendix A.  Title", "A.1.  Title",
    "Appendix B.  Title", etc.
 
-4.10.  Index
-
-   If included, an index appears directly after any appendices and
-   before the Acknowledgements (if any).  Where applicable, it appears
-   before the "IAB Members at the Time of Approval" section.
-
-4.11.  Acknowledgements Section
+4.10.  Acknowledgements Section
 
    This optional section may be used instead of, or in addition to, a
    Contributors section.  It is often used by authors to publicly thank
    those who have provided feedback regarding a document and to note any
    documents from which text was borrowed.
 
-4.12.  Contributors Section
+4.11.  Contributors Section
 
    This optional section acknowledges those who have made significant
    contributions to the document.
 
-   In a similar fashion to the Author&#65533;s Address section, the RFC
-   Editor does not make the determination as to who should be listed as
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 20]
-
-Internet-Draft                  7322-bis                      March 2017
-
-
-   a contributor to an RFC.  The determination of who should be listed
-   as a contributor is made by the stream.
+   In a similar fashion to the Author's Address section, the RFC Editor
+   does not make the determination as to who should be listed as a
+   contributor to an RFC.  The determination of who should be listed as
+   a contributor is made by the stream.
 
    The Contributors section may include brief statements about the
    nature of particular contributions (e.g., "Sam contributed
@@ -1132,8 +1152,13 @@ Internet-Draft                  7322-bis                      March 2017
    may also be included in the Contributors section, for those
    contributors whose knowledge makes them useful future contacts for
    information about the RFC.  The format of any contact information
-   should be similar to the format of information in the Author&#65533;s
+   should be similar to the format of information in the Author's
    Address section.
+
+4.12.  Index
+
+   If included, an index appears at the end of the document, immediately
+   before Author's Address section.
 
 4.13.  Author's Address or Authors' Addresses Section
 
@@ -1145,6 +1170,14 @@ Internet-Draft                  7322-bis                      March 2017
    the postal address is included, it should include the country name,
    using the English short name listed by the ISO 3166 Maintenance
    Agency [ISO_OBP].  The purpose of this section is to (1)
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 21]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
    unambiguously define author identity (e.g., the John Smith who works
    for FooBar Systems) and (2) provide contact information for future
    readers who have questions or comments.
@@ -1164,27 +1197,23 @@ Internet-Draft                  7322-bis                      March 2017
 
    This document has no IANA considerations.
 
-7.  References
+7.  Change Log
 
+   This section to be removed before publication.
 
+      -00 to -01: Citation tag requirements more tightly specified;
+      index moved; new errata URI added; capitalization of working/
+      research group specified
 
+8.  References
 
-
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 21]
-
-Internet-Draft                  7322-bis                      March 2017
-
-
-7.1.  Normative References
+8.1.  Normative References
 
    [STYLE-WEB]
               RFC Editor, "Web Portion of the Style Guide",
               <http://www.rfc-editor.org/rfc-style-guide/part2.html>.
 
-7.2.  Informative References
+8.2.  Informative References
 
    [ABBR]     RFC Editor, "RFC Editor Abbreviations List",
               <https://www.rfc-editor.org/rfc-style-guide/
@@ -1197,6 +1226,13 @@ Internet-Draft                  7322-bis                      March 2017
    [BCP18]    Alvestrand, H., "IETF Policy on Character Sets and
               Languages", BCP 18, RFC 2277, January 1998,
               <https://www.rfc-editor.org/info/bcp18>.
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 22]
+
+Internet-Draft                  7322-bis                       June 2017
+
 
    [BCP26]    Alvestrand, H. and T. Narten, "Guidelines for Writing an
               ANA Considerations Section in RFCs", BCP 26, RFC 5226, May
@@ -1223,17 +1259,6 @@ Internet-Draft                  7322-bis                      March 2017
               Housley, R., "Conclusion of FYI RFC Sub-Series", RFC 6360,
               August 2011.
 
-
-
-
-
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 22]
-
-Internet-Draft                  7322-bis                      March 2017
-
-
    [IAB-FORM]
               IAB, "Format for RFCs in the IAB Stream",
               <https://www.rfc-editor.org/rfc-style-guide/iab-
@@ -1254,6 +1279,16 @@ Internet-Draft                  7322-bis                      March 2017
 
    [ISO_OBP]  ISO, "Online Browsing Platform (OBP)",
               <https://www.iso.org/obp/ui/>.
+
+
+
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 23]
+
+Internet-Draft                  7322-bis                       June 2017
+
 
    [MIB-BOILER]
               IETF OPS Area, "Boilerplate for IETF MIB Documents",
@@ -1283,13 +1318,6 @@ Internet-Draft                  7322-bis                      March 2017
               Series and RFC Editor", RFC 4844, DOI 10.17487/RFC4844,
               July 2007, <http://www.rfc-editor.org/info/rfc4844>.
 
-
-
-Flanagan & Ginoza      Expires September 11, 2017              [Page 23]
-
-Internet-Draft                  7322-bis                      March 2017
-
-
    [RFC5741]  Daigle, L., Ed., Kolkman, O., Ed., and IAB, "RFC Streams,
               Headers, and Boilerplates", RFC 5741,
               DOI 10.17487/RFC5741, December 2009,
@@ -1307,8 +1335,19 @@ Internet-Draft                  7322-bis                      March 2017
               RFC 7996, DOI 10.17487/RFC7996, December 2016,
               <http://www.rfc-editor.org/info/rfc7996>.
 
+   [RFC7997]  Flanagan, H., Ed., "The Use of Non-ASCII Characters in
+              RFCs", RFC 7997, DOI 10.17487/RFC7997, December 2016,
+              <http://www.rfc-editor.org/info/rfc7997>.
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 24]
+
+Internet-Draft                  7322-bis                       June 2017
+
+
    [STD66]    Berners-Lee, T., Fielding, R., and L. Masinter, "Uniform
-              Resource Identifier (URI): Generic Synta", STD 66,
+              Resource Identifier (URI): Generic Syntax", STD 66,
               RFC 3986, January 2005, <https://www.rfc-editor.org/info/
               std66>.
 
@@ -1341,9 +1380,26 @@ Internet-Draft                  7322-bis                      March 2017
 
 
 
-Flanagan & Ginoza      Expires September 11, 2017              [Page 24]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 25]
 
-Internet-Draft                  7322-bis                      March 2017
+Internet-Draft                  7322-bis                       June 2017
 
 
 Appendix A.  Related Procedures
@@ -1397,24 +1453,10 @@ A.3.  Revising This Document and Associated Web Pages
 
 
 
-Flanagan & Ginoza      Expires September 11, 2017              [Page 25]
+Flanagan & Ginoza       Expires December 24, 2017              [Page 26]
 
-Internet-Draft                  7322-bis                      March 2017
+Internet-Draft                  7322-bis                       June 2017
 
-
-Appendix B.  Contributors
-
-   Alice Russo RFC Production Center
-
-   Authors' Addresses
-
-   Heather Flanagan RFC Series Editor
-
-   EMail: rse@rfc-editor.org
-
-   Sandy Ginoza RFC Production Center
-
-   EMail: rfc-editor@rfc-editor.org
 
 Authors' Addresses
 
@@ -1453,4 +1495,18 @@ Authors' Addresses
 
 
 
-Flanagan & Ginoza      Expires September 11, 2017              [Page 26]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Flanagan & Ginoza       Expires December 24, 2017              [Page 27]
