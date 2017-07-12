@@ -13,14 +13,15 @@
   <!ENTITY RFC1311 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.1311.xml">
   <!ENTITY RFC1818 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.1818.xml">
   <!ENTITY RFC4844 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.4844.xml">
-  <!ENTITY RFC5741 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.5741.xml">
+  <!ENTITY RFC7841 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7841.xml">
   <!ENTITY RFC6635 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6635.xml">
   <!ENTITY RFC6949 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6949.xml">
   <!ENTITY RFC7990 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7990.xml">
   <!ENTITY RFC7996 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7996.xml">
+  <!ENTITY RFC7997 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7997.xml">
   ]>
 
-<rfc ipr="trust200902" docName="draft-flanagan-7322bis-00" category="info">
+<rfc ipr="trust200902" docName="draft-flanagan-7322bis-01" category="info">
 
 
   <front>
@@ -43,7 +44,7 @@
       </address>
     </author>
 
-    <date year="2017" month="March" day="10"/>
+    <date year="2017" month="July" day="12"/>
 
 
 
@@ -69,11 +70,11 @@ This document obsoletes RFC 7322, "RFC Style Guide".</t>
 <section anchor="introduction" title="Introduction">
 
 <t>The ultimate goal of the RFC publication process is to produce
-documents that are readable, clear, consistent, and reasonably
-uniform.  The basic formatting conventions for RFCs were established
+documents that are readable, clear, and consistent.  The basic formatting
+conventions for RFCs were established
 in the 1970s by the original RFC Editor, Jon Postel.  This document
 describes the fundamental and unique style conventions and editorial
-policies currently in use for the RFC Series <xref target="RFC4844"/>.  It is
+policies currently in use for the RFC Series <xref target="RFC4844"/> and is
 intended as a stable, infrequently updated reference for authors,
 editors, and reviewers.</t>
 
@@ -84,9 +85,9 @@ arise, the RFC Editor will first address them on the web portion of
 the Style Guide <xref target="STYLE-WEB"/>.  These topics may become part of the RFC
 Style Guide when it is revised.</t>
 
-<t>The world of technical publishing has generally accepted rules for
-grammar, punctuation, capitalization, sentence length and complexity,
-parallelism, etc.  The RFC Editor generally follows these accepted
+<t>The world of publishing has generally accepted rules for
+grammar, punctuation, capitalization, sentence length and complexity, etc.
+The RFC Editor generally follows these accepted
 rules as defined by the Chicago Manual of Style (CMOS) <xref target="CMOS"/>, with a
 few important exceptions to avoid ambiguity in complex technical
 prose and to handle mixtures of text and computer languages, or to
@@ -113,8 +114,8 @@ during the publication process, namely to:</t>
   <t>Correct larger content/clarity issues; flag any unclear passages
 for author review.</t>
   <t>Fix inconsistencies (e.g., terms that appear in various forms,
-text that appears multiple times, or inconsistent
-capitalization).</t>
+ inconsistent capitalization, discrepancies between a figure and the text that
+ describes it).</t>
 </list></t>
 
 <t>We strive for consistency within:</t>
@@ -187,6 +188,27 @@ Quotation marks are not necessary when text is formatted as a
 block quotation.</t>
 </list></t>
 
+<section anchor="compounds" title="RFCs as Compounds">
+  <t>Whenever possible:
+  <list style='symbols'>
+    <t>Hyphenated compounds formed with RFC numbers should be avoided;
+      this can be accomplished by: rewording the sentence (e.g., [RFC5011]-style
+      rollover –> rollover as described in RFC 5011). </t>
+    <t>adding a note in either the Terminology or Conventions section mentioning
+      the RFC so that other occurrences throughout the text will be understood by
+      the reader to be in the style of said RFC (e.g., This document uses the term
+      “rollover” as defined in RFC 5011.).</t>
+    </list></t>
+    <t>If use of an RFC number in attributive position is unavoidable, the
+      preferred form should appear as in the example “RFC 5011-style rollover”.
+      That is:
+      <list style='symbols'>
+        <t>no hyphen between “RFC” and the number (don’t use RFC-5011-style rollover)</t>
+        <t>avoid hyphenating citations with text (don’t use [RFC5011]-style rollover)</t>
+      </list>
+    </t>
+  </section>
+
 </section>
 
 <section anchor="dns-names-and-uris" title="DNS Names and URIs">
@@ -197,7 +219,7 @@ Level DNS Names" <xref target="BCP32"/>, to avoid accidental conflicts.</t>
 
 <t>Angle brackets are strongly recommended around URIs <xref target="STD66"/>, e.g.,</t>
 
-<t>&lt;http://example.com/ &gt;</t>
+<t>&lt;https://example.com/ &gt;</t>
 
 <t>The use of HTTPS rather than HTTP is strongly encouraged.</t>
 
@@ -216,6 +238,12 @@ except for internal articles, prepositions, and conjunctions.</t>
   <t>Section titles that are in sentence form will follow typical
 sentence capitalization.</t>
   <t>Titles of figures may be in sentence form or use title case.</t>
+  <t>Some terms related to the various roles or parts of the streams authoring
+    RFCs should be used consistently.  For example, when the term 'working group'
+    or 'research group' is used as part of a
+    specific group name, it will be capitalized (e.g., kitten Working Group,
+    Crypto Forum Research Group). When used to generally refer to groups, it
+    will be downcased.</t>
 </list></t>
 
 </section>
@@ -226,18 +254,21 @@ sentence capitalization.</t>
   <t>References and citations must match.  That is, there must be a
 reference for each citation used, and vice versa.</t>
   <t>Citations must be enclosed in square brackets (e.g., "[CITE1]").</t>
-  <t>A citation/reference tag must not contain spaces.
+  <t>Citations are restricted to ASCII-only characters.<xref target="RFC7997"/></t>
+  <t>Citations must begin with a number or a letter, and may contain digits, letters,
+  colons, hyphens, underscores, or dots.
     <list>
-    <t>Example: "[RFC2119]" rather than "[RFC 2119]"</t>
+      <t>Example: "[IEEE.802.15.4]" rather than "[.802.15.4]"</t>
+      <t>Example: "[RFC2119]" rather than "[RFC 2119]"</t>
     </list></t>
-   <t>However, the proper textual naming of an RFC contains a space.
-     <list>
-     <t>Example: "See RFC 2119 <xref target="BCP14"/> for more information."</t>
-   </list></t>
+   <t>Citations may not include spaces, commas, quotation marks, or other punctuation (!, ?, etc.).
+   <list>
+   <t>Example: "See RFC 2119 <xref target="BCP14"/> for more information."</t>
+ </list></t>
   <t>Cross-references within the body of the memo and to other RFCs
 must use section numbers rather than page numbers, as pagination
 may change per format and device.</t>
-  <t>An in-text citation may a) follow the subject for which it is being cited
+  <t>An citation may a) follow the subject for which it is being cited
     or b) be read as part of the text. For example:
     <list>
     <t>a) As part of the transition to IPv6, NAT64 [RFC6146] and DNS64
@@ -280,26 +311,7 @@ against complexity.</t>
 
 </section>
 
-<section anchor="compounds" title="RFCs as Compounds">
-  <t>Whenever possible:
-  <list style='symbols'>
-    <t>Hyphenated compounds formed with RFC numbers should be avoided;
-      this can be accomplished by: rewording the sentence (e.g., [RFC5011]-style
-      rollover –> rollover as described in RFC 5011). </t>
-    <t>adding a note in either the Terminology or Conventions section mentioning
-      the RFC so that other occurrences throughout the text will be understood by
-      the reader to be in the style of said RFC (e.g., This document uses the term
-      “rollover” as defined in RFC 5011.).</t>
-    </list></t>
-    <t>If use of an RFC number in attributive position is unavoidable, the
-      preferred form should appear as in the example “RFC 5011-style rollover”.
-      That is:
-      <list style='symbols'>
-        <t>no hyphen between “RFC” and the number (don’t use RFC-5011-style rollover)</t>
-        <t>avoid hyphenating citations with text (don’t use [RFC5011]-style rollover)</t>
-      </list>
-    </t>
-  </section>
+
 
   <section anchor="images" title="Images and Figures">
   <t>The goal of having images within an RFC is to convey information. A good
@@ -308,7 +320,7 @@ against complexity.</t>
     way of understanding and implementation.</t>
     <t><list style='symbols'>
       <t>Images should be legible when displayed on a standard screen (1920x1080)
-        and printed on either A4 or US Letter paper. Any text within the diagram
+        and printable on either A4 or US Letter paper. Any text within the diagram
         should be readable at that resolution. </t>
       <t>Authors should use black on white, not white on black. No color or
         greyscale <xref target="RFC7990"/><xref target="RFC7996"/></t>
@@ -317,10 +329,11 @@ against complexity.</t>
         want to convey, consider using more than one diagram.</t>
       <t>San-serif fonts are generally considered more readable for digital
         material. [citation needed]</t>
-      <t>The style of diagrams within an RFC should be consistent (fonts, shapes,
+      <t>The style of diagrams within an RFC should be consistent both within a
+        single RFC and within a cluster of RFCs (fonts, shapes,
         lines). For example, if you you use a dashed line to indicate a certain
         type of packet flow, then continue to use that style of line consistently.
-        This is encouraged within a single RFC and also within a cluster of RFCs.</t>
+        </t>
       <t>Line styles, including thickness, color, and arrow types, are easy
         methods to convey a particular meaning to the reader. Consistently use
         the same line styles to convey a particular meaning throughout all
@@ -337,8 +350,7 @@ against complexity.</t>
 <t>A published RFC will largely contain the elements in the following
 list.  Some of these sections are required, as noted.  Those sections
 marked with "*" will be supplied by the RFC Editor during the
-editorial process when necessary.  Sections are allowed to contain
-nothing but subsections.  The rules for each of these elements are
+editorial process when necessary. The rules for each of these elements are
 described in more detail below.
 <list>
 
@@ -365,9 +377,9 @@ described in more detail below.
   <t>Appendix A.</t>
   <t>Appendix B.</t>
 </list></t>
-<t>Index</t>
 <t>Acknowledgements</t>
 <t>Contributors</t>
+<t>Index</t>
 <t>Author's Address                         [Required]</t>
  </list></t>
 
@@ -386,13 +398,14 @@ after the appendices should not be numbered or labeled (e.g., see
 <section anchor="first-page-header" title="First-Page Header">
 
 <t>Headers will follow the format described in "RFC Streams, Headers,
-and Boilerplates" <xref target="RFC5741"/> and its successors.  In addition, the
+and Boilerplates" <xref target="RFC7841"/> and its successors.  In addition, the
 following conventions will apply.</t>
 
 <section anchor="authoreditor" title="Author/Editor">
 
-<t>The determination of who should be listed as an author or editor on
-an RFC is made by the stream.</t>
+<t>The final determination of who should be listed as an author or editor on
+an RFC is made by the stream, as is whether or not including author
+affiliation is required.</t>
 
 <t>The author's name (initial followed by family name) appears on the
 first line of the heading.  Some variation, such as additional
@@ -452,7 +465,7 @@ will be listed in ascending order.</t>
 
 </section>
 </section>
-<section anchor="full-title" title="Full Title">
+<section anchor="full-title" title="Document Title">
 
 <t>The title must be centered below the rest of the heading, preceded by
 two blank lines and followed by one blank line.</t>
@@ -501,6 +514,9 @@ RFC should be self-contained as if there were no Abstract.</t>
 in isolation in publication announcements and in the online index of
 RFCs.  Therefore, the Abstract must not contain citations.</t>
 
+<t>If the RFC updates or obsoletes an earlier RFC, that should be mentioned in
+  the abstract as well.</t>
+
 </section>
 <section anchor="rfc-editor-or-stream-notes-section" title="RFC Editor or Stream Notes Section">
 
@@ -517,7 +533,7 @@ an RFC.</t>
 <section anchor="status-of-this-memo-section" title="Status of This Memo Section">
 
 <t>The RFC Editor will supply an appropriate "Status of This Memo" as
-defined in RFC 5741 [RFC5741] and "Format for RFCs in the IAB Stream"
+defined in RFC  [RFC7841] and "Format for RFCs in the IAB Stream"
 <xref target="IAB-FORM"/>.</t>
 
 </section>
@@ -724,13 +740,18 @@ reference entry.</t>
 <t>[RFCXXXX] Last name, First initial., Ed. (if applicable),
              "RFC Title", Stream, Sub-series number (if applicable),
              RFC number, DOI, Date of publication,
-             <eref target="http://www.rfc-editor.org/info/rfc#">http://www.rfc-editor.org/info/rfc#</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/rfc#">https://www.rfc-editor.org/info/rfc#</eref>.</t>
 
 <t>Example:</t>
 
 <t>[RFC3080] Rose, M., "The Blocks Extensible Exchange
              Protocol Core," IETF, RFC 3080, DOI 10.17487/RFC3080, March 2001,
-             <eref target="http://www.rfc-editor.org/info/rfc3080">http://www.rfc-editor.org/info/rfc3080</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/rfc3080">https://www.rfc-editor.org/info/rfc3080</eref>.</t>
+
+<t>[RFC8157] Leymann, N., Heidemann, C., Zhang, M., Sarikaya, B., and M.
+             Cullen, "Huawei's GRE Tunnel Bonding Protocol", independent,
+            RFC 8157, DOI 10.17487/RFC8157, May 2017,
+            <eref target="https://www.rfc-editor.org/info/rfc8157">https://www.rfc-editor.org/info/rfc8157</eref>.</t>
 
 <t>For two authors or editors:</t>
 
@@ -738,14 +759,14 @@ reference entry.</t>
              and First initial. Last name, Ed. (if applicable),
              "RFC Title", Stream, Sub-series number (if applicable),
              RFC number, DOI, Date of publication,
-             <eref target="http://www.rfc-editor.org/info/rfc#">http://www.rfc-editor.org/info/rfc#</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/rfc#">https://www.rfc-editor.org/info/rfc#</eref>.</t>
 
 <t>Example:</t>
 
 <t>[RFC6323] Renker, G. and G. Fairhurst, "Sender RTT
              Estimate Option for the Datagram Congestion
              Control Protocol (DCCP)", IETF, RFC 6323, DOI 10.17487/RFC6323, July 2011,
-             <eref target="http://www.rfc-editor.org/info/rfc6323">http://www.rfc-editor.org/info/rfc6323</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/rfc6323">https://www.rfc-editor.org/info/rfc6323</eref>.</t>
 
 <t>For three or more authors or editors:</t>
 
@@ -754,14 +775,14 @@ reference entry.</t>
              and First initial. Last name, Ed. (if applicable),
              "RFC Title", Stream, Sub-series number (if applicable),
              RFC number, DOI, Date of publication,
-             <eref target="http://www.rfc-editor.org/info/rfc#">http://www.rfc-editor.org/info/rfc#</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/rfc#">https://www.rfc-editor.org/info/rfc#</eref>.</t>
 
 <t>Example:</t>
 
 <t>[RFC6429] Bashyam, M., Jethanandani, M., and A. Ramaiah,
              "TCP Sender Clarification for Persist
              Condition", IETF, RFC 6429, DOI 10.17487/RFC6429, December 2011,
-             <eref target="http://www.rfc-editor.org/info/rfc6429">http://www.rfc-editor.org/info/rfc6429</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/rfc6429">https://www.rfc-editor.org/info/rfc6429</eref>.</t>
 
 </section>
 <section anchor="referencing-stds-and-bcps" title="Referencing STDs and BCPs">
@@ -772,8 +793,7 @@ contains multiple RFCs is referenced, the reference entry should
 include ALL of the RFCs comprising that sub-series.  The authors
 should refer to specific RFC numbers as part of the text (not as
 citations) and cite the sub-series number.  Inclusion of the URI to
-the STD or BCP info page (see Section 3.2.3 of <xref target="RFC5741"/>) is
-recommended.  The text should appear as follows:</t>
+the STD or BCP info page is recommended.  The text should appear as follows:</t>
 
 <t>See RFC 1034 [STD13].</t>
 
@@ -781,13 +801,13 @@ recommended.  The text should appear as follows:</t>
 
 <t>[STDXXX]  Last name, First initial., Ed. (if applicable),
              "RFC Title", Stream, Sub-series number, RFC number, DOI, Date of
-             publication, <eref target="http://www.rfc-editor.org/info/std#">http://www.rfc-editor.org/info/std#</eref>.</t>
+             publication, <eref target="https://www.rfc-editor.org/info/std#">https://www.rfc-editor.org/info/std#</eref>.</t>
 
 <t>Example:</t>
 
 <t>[STD72]   Gellens, R. and J. Klensin, "Message Submission
              for Mail", IETF, STD 72, RFC 6409, DOI 10.17487/RFC6409, November 2011,
-             <eref target="http://www.rfc-editor.org/info/std72">http://www.rfc-editor.org/info/std72</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/std72">https://www.rfc-editor.org/info/std72</eref>.</t>
 
 <t>For an STD or BCP that contains two or more RFCs:</t>
 
@@ -801,20 +821,20 @@ recommended.  The text should appear as follows:</t>
          "RFC Title", Stream, Sub-series number, RFC number, DOI,
          Date of publication.
 
-         <http://www.rfc-editor.org/info/std#>
+         <https://www.rfc-editor.org/info/std#>
 ]]></artwork></figure>
 
 <t>Example:</t>
 
 <t>[STD13]   Mockapetris, P., "Domain names - concepts and
-             facilities", STD 13, RFC 1034, DOI 10.17487/RFC1034, November 1987.</t>
+             facilities", IETF, STD 13, RFC 1034, DOI 10.17487/RFC1034, November 1987.</t>
 
 <figure><artwork><![CDATA[
   Mockapetris, P., "Domain names - implementation and
-  specification", STD 13, RFC 1035, DOI 10.17487/RFC1035,
+  specification", IETF, STD 13, RFC 1035, DOI 10.17487/RFC1035,
   November 1987.
 
-         <http://www.rfc-editor.org/info/std13>
+         <https://www.rfc-editor.org/info/std13>
 ]]></artwork></figure>
 
 </section>
@@ -847,9 +867,9 @@ also later published as an RFC, then that RFC must also be listed.</t>
 <t>The following format is required when a reference to an erratum
 report is necessary:</t>
 
-<t>[ErrNumber]  RFC Errata, Erratum ID number, RFC number, &lt;URI&gt;.</t>
+<t>[ErrNumber]  RFC Errata, Erratum ID number, RFC number, &lt;https://www.rfc-editor.org/errata/eid#&gt;.</t>
 
-<t>[Err1912]  RFC Errata, Erratum ID 1912, RFC 2978, xxx.</t>
+<t>[Err1912]  RFC Errata, Erratum ID 1912, RFC 2978, &lt;https://www.rfc-editor.org/errata/eid1912 &gt;.</t>
 
 </section>
 <section anchor="referencing-other-standards-development-organizations-sdos" title="Referencing Other Standards Development Organizations (SDOs)">
@@ -870,7 +890,7 @@ standard from another SDO in which authors are listed:</t>
           <t> Yergeau, F., and J.  Cowan, "Extensible Markup Language</t>
           <t> (XML) 1.1 (Second Edition)", W3C Recommendation</t>
           <t> REC-xml11-20060816, August 2006, </t>
-          <t> &lt;http://www.w3.org/TR/2006/REC-xml11-20060816 &gt;.</t>
+          <t> &lt;https://www.w3.org/TR/2006/REC-xml11-20060816 &gt;.</t>
   </list></t>
 
 
@@ -887,13 +907,21 @@ format is recommended:</t>
                    <URI if available>.
 ]]></artwork></figure>
 
-<t>Example:</t>
+<t>Example (undated; see note below):</t>
+
+<figure><artwork><![CDATA[[IEEE.802.15.4]
+           IEEE, "IEEE Standard for Low-Rate Wireless Networks",
+           IEEE 802.15.4,
+           <https://ieeexplore.ieee.org/document/7460875/>.
+]]></artwork></figure>
+
+<t>Example (dated; see note below):</t>
 
 <figure><artwork><![CDATA[[IEEE802.1Q]  IEEE, "Local and Metropolitan Area
                  Networks -- Media Access Control (MAC)
                  Bridges and Virtual Bridged Local Area
                  Networks", IEEE Std 802.1Q-2011, August 2011,
-                 <http://standards.ieee.org/findstds/standard/
+                 <https://standards.ieee.org/findstds/standard/
                  802.1Q-2011.html>
 ]]></artwork></figure>
 
@@ -922,12 +950,6 @@ Appendices should be labeled as "Appendix A.  Title", "A.1.  Title",
 
 </section>
 
-<section anchor="index" title="Index">
-  <t>If included, an index appears directly after any appendices and before the
-    Acknowledgements (if any). Where applicable, it appears before the “IAB
-    Members at the Time of Approval” section.</t>
-</section>
-
 <section anchor="acknowledgements-section" title="Acknowledgements Section">
 
 <t>This optional section may be used instead of, or in addition to, a
@@ -941,7 +963,7 @@ documents from which text was borrowed.</t>
 <t>This optional section acknowledges those who have made significant
 contributions to the document.</t>
 
-<t>In a similar fashion to the Author�s Address section, the RFC Editor
+<t>In a similar fashion to the Author's Address section, the RFC Editor
 does not make the determination as to who should be listed as a
 contributor to an RFC.  The determination of who should be listed as
 a contributor is made by the stream.</t>
@@ -953,9 +975,15 @@ discretion of the author(s), contact addresses may also be included
 in the Contributors section, for those contributors whose knowledge
 makes them useful future contacts for information about the RFC.  The
 format of any contact information should be similar to the format of
-information in the Author�s Address section.</t>
+information in the Author's Address section.</t>
 
 </section>
+
+<section anchor="index" title="Index">
+  <t>If included, an index appears at the end of the document, immediately
+    before Author’s Address section. </t>
+</section>
+
 <section anchor="authors-address-or-authors-addresses-section" title="Author's Address or Authors' Addresses Section">
 
 <t>This required section gives contact information for the author(s)
@@ -992,6 +1020,16 @@ information in the Author�s Address section.</t>
 
 </section>
 
+<section anchor="changelog" title="Change Log">
+  <t>This section to be removed before publication.
+    <list>
+      <t>-00 to -01: Citation tag requirements more tightly specified; index
+      moved; new errata URI added; capitalization of working/research group
+      specified</t>
+    </list>
+  </t>
+</section>
+
 </middle>
 
 
@@ -999,7 +1037,7 @@ information in the Author�s Address section.</t>
 
 <references title="Normative References">
 
-<reference anchor="STYLE-WEB" target="http://www.rfc-editor.org/rfc-style-guide/part2.html">
+<reference anchor="STYLE-WEB" target="https://www.rfc-editor.org/rfc-style-guide/part2.html">
   <front>
     <title>Web Portion of the Style Guide</title>
     <author>
@@ -1124,7 +1162,7 @@ information in the Author�s Address section.</t>
   </front>
 </reference>
 
-<reference anchor="ID-GUIDE" target="http://www.ietf.org/ietf-ftp/1id-guidelines.txt">
+<reference anchor="ID-GUIDE" target="https://www.ietf.org/ietf-ftp/1id-guidelines.txt">
   <front>
     <title>Guidelines to Authors of Internet Drafts</title>
     <author>
@@ -1195,7 +1233,7 @@ information in the Author�s Address section.</t>
   </front>
 </reference>
 
-<reference anchor="REFS" target="http://www.ietf.org/iesg/statement/normative-informative.html">
+<reference anchor="REFS" target="https://www.ietf.org/iesg/statement/normative-informative.html">
   <front>
     <title>IESG Statement: Normative and Informative</title>
     <author>
@@ -1208,14 +1246,16 @@ information in the Author�s Address section.</t>
 &RFC1311;
 &RFC1818;
 &RFC4844;
-&RFC5741;
+&RFC7841;
 &RFC6635;
 &RFC7990;
 &RFC7996;
+&RFC7997;
+
 
 <reference anchor="STD66" target="https://www.rfc-editor.org/info/std66">
   <front>
-    <title>Uniform Resource Identifier (URI): Generic Synta</title>
+    <title>Uniform Resource Identifier (URI): Generic Syntax</title>
     <author initials="T." surname="Berners-Lee"/>
     <author initials="R." surname="Fielding"/>
     <author initials="L." surname="Masinter"/>
@@ -1298,25 +1338,6 @@ information in the Author�s Address section.</t>
    encounter and apply the guidance.</t>
 
 </section>
-
-</section>
-
-<section anchor="contributors" title="Contributors">
-
-<t>Alice Russo
-   RFC Production Center</t>
-
-<t>Authors' Addresses</t>
-
-<t>Heather Flanagan
-   RFC Series Editor</t>
-
-<t>EMail: rse@rfc-editor.org</t>
-
-<t>Sandy Ginoza
-   RFC Production Center</t>
-
-<t>EMail: rfc-editor@rfc-editor.org</t>
 
 </section>
 
