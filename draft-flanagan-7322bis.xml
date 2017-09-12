@@ -44,7 +44,7 @@
       </address>
     </author>
 
-    <date year="2017" month="July" day="17"/>
+    <date year="2017" month="September" day="12"/>
 
 
 
@@ -494,28 +494,30 @@ from a protocol of more general applicability.</t>
 </section>
 <section anchor="abstract-section" title="Abstract Section">
 
-<t>Every RFC must have an Abstract that provides a concise and
-comprehensive overview of the purpose and contents of the entire
-document, to give a technically knowledgeable reader a general
-overview of the function of the document.</t>
+<t>  Every RFC must have an Abstract that provides a concise and comprehensive
+overview of the purpose and contents of the entire document, to give a
+technically knowledgeable reader a general overview of the function of the
+document and some context with regards to its relationship (in particular,
+whether it updates or obsoletes) any other RFCs.  In addition to its function in
+the RFC itself, the Abstract section text will appear in publication
+announcements and in the online index of RFCs.</t>
 
-<t>Composing a useful Abstract generally requires thought and care.
-Usually, an Abstract should begin with a phrase like "This memo ..."
-or "This document ..."  A satisfactory Abstract can often be
-constructed in part from material within the Introduction section,
-but an effective Abstract may be shorter, less detailed, and perhaps
-broader in scope than the Introduction.  Simply copying and pasting
-the first few paragraphs of the Introduction is allowed, but it may
-result in an Abstract that is both incomplete and redundant.  Note
-also that an Abstract is not a substitute for an Introduction; the
-RFC should be self-contained as if there were no Abstract.</t>
+<t>  Composing a useful Abstract generally requires thought and care. Usually,
+an Abstract should begin with a phrase like "This memo ..." or "This document ..."
+A satisfactory Abstract can often be constructed in part from material within
+the Introduction section, but an effective Abstract may be shorter, less
+detailed, and perhaps broader in scope than the Introduction.  Simply copying
+and pasting the first few paragraphs of the Introduction is allowed, but it may
+result in an Abstract that is overly long, incomplete, and redundant.</t>
 
-<t>Similarly, the Abstract should be complete in itself.  It will appear
-in isolation in publication announcements and in the online index of
-RFCs.  Therefore, the Abstract must not contain citations.</t>
+<t>  An Abstract is not a substitute for an Introduction; the RFC should be
+self-contained as if there were no Abstract. Similarly, the Abstract should be
+complete in itself.  Given that the Abstract will appear independently in
+announcements and indices, mentions of other RFCs within the Abstract should
+include both an RFC number and either the full or short title.  Any  documents
+that are Updated or Obsoleted by the RFC must be mentioned in the  Abstract.
+These may be presented in a list format if that improves readability.</t>
 
-<t>If the RFC updates or obsoletes an earlier RFC, that should be mentioned in
-  the abstract as well.</t>
 
 </section>
 <section anchor="rfc-editor-or-stream-notes-section" title="RFC Editor or Stream Notes Section">
@@ -1025,7 +1027,7 @@ information in the Author's Address section.</t>
     <list>
       <t>-00 to -01: Citation tag requirements more tightly specified; index
       moved; new errata URI added; capitalization of working/research group
-      specified</t>
+      specified; update Abstract guidance</t>
     </list>
   </t>
 </section>
