@@ -21,7 +21,7 @@
   <!ENTITY RFC7997 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7997.xml">
   ]>
 
-<rfc ipr="trust200902" docName="draft-flanagan-7322bis-01" category="info">
+<rfc ipr="trust200902" docName="draft-flanagan-7322bis-03" category="info" obsoletes="7322">
 
 
   <front>
@@ -174,7 +174,7 @@ modified to be consistent with American English spelling.</t>
 
 <section anchor="punctuation" title="Punctuation">
 
-<t><list style='symbols'>
+<t><list style='numbers'>
   <t>A comma is used before the last item of a series, e.g.,  <vspace blankLines='1'/>
 "TCP service is reliable, ordered, and full duplex"</t>
   <t>When quoting literal text, punctuation is placed outside quotation
@@ -227,7 +227,7 @@ Level DNS Names" <xref target="BCP32"/>, to avoid accidental conflicts.</t>
 
 <section anchor="capitalization" title="Capitalization">
 
-<t><list style='symbols'>
+<t><list style='numbers'>
   <t>Capitalization must be consistent within the document and ideally
 should be consistent with related RFCs.  Refer to the online table
 of decisions on consistent usage of terms in RFCs <xref target="TERMS"/>.</t>
@@ -250,41 +250,45 @@ sentence capitalization.</t>
 
 <section anchor="citations" title="Citations">
 
-<t><list style='symbols'>
+<t>The most important function of a citation is to point to a reference so that
+a reader may follow up on additional material that is important in some way to
+understanding or implementing the content in an RFC. This section offers guidance
+on the requirements and recommendations for citation format within an RFC.</t>
+<t><list style='numbers'>
   <t>References and citations must match.  That is, there must be a
 reference for each citation used, and vice versa.</t>
   <t>Citations must be enclosed in square brackets (e.g., "[CITE1]").</t>
-  <t>Citations are restricted to ASCII-only characters.<xref target="RFC7997"/></t>
+  <t>Citations are restricted to ASCII-only characters, as described in "The Use
+    of Non-ASCII Characters in RFCs" <xref target="RFC7997"/>.</t>
   <t>Citations must begin with a number or a letter, and may contain digits, letters,
   colons, hyphens, underscores, or dots.
-    <list>
+    <list style='symbols'>
       <t>Example: "[IEEE.802.15.4]" rather than "[.802.15.4]"</t>
       <t>Example: "[RFC2119]" rather than "[RFC 2119]"</t>
     </list></t>
-   <t>Citations may not include spaces, commas, quotation marks, or other punctuation (!, ?, etc.).
-   <list>
-   <t>Example: "See RFC 2119 <xref target="BCP14"/> for more information."</t>
- </list></t>
+   <t>Citations may not include spaces, commas, quotation marks, or other
+   punctuation (!, ?, etc.), and should be in-line with the normal line of type.
+     <list style='symbols'>
+       <t>Example: "See RFC 2119 <xref target="BCP14"/> for more information."</t>
+     </list></t>
   <t>Cross-references within the body of the memo and to other RFCs
 must use section numbers rather than page numbers, as pagination
 may change per format and device.</t>
-  <t>An citation may a) follow the subject for which it is being cited
-    or b) be read as part of the text. For example:
-    <list>
-    <t>a) As part of the transition to IPv6, NAT64 [RFC6146] and DNS64
+  <t>A citation may A) follow the subject to which the citation applies
+    or B) be read as part of the text. For example:
+    <list style='letters'>
+    <t>As part of the transition to IPv6, NAT64 [RFC6146] and DNS64
      [RFC6147] technologies will be utilized by some access networks to
      provide IPv4 connectivity for IPv6-only nodes [RFC6144].</t>
-   </list></t>
- </list></t>
 
-    <t>or
-      <list>
-
-      <t>b) Note that SAVI raises a number of important privacy considerations
-       that are discussed more fully in [RFC6959].</t>
+    <t>Note that SAVI raises a number of important privacy considerations
+     that are discussed more fully in [RFC6959].</t>
      </list></t>
-
-<t>We recommend using a) and strongly recommend consistent use of one style throughout.</t>
+     <t>For a document referenced multiple times in running text, the citation anchor must
+       be at first use outside the abstract. Additional citations are allowed at the author's
+       discretion.</t>
+</list></t>
+<t>We recommend using A) and strongly recommend consistent use of one style throughout.</t>
 
 </section>
 
@@ -318,7 +322,7 @@ against complexity.</t>
     diagram or image expresses information quickly, clearly, and with low chance
     of misunderstanding. Technically correct but confusing images get in the
     way of understanding and implementation.</t>
-    <t><list style='symbols'>
+    <t><list style='numbers'>
       <t>Images should be legible when displayed on a standard screen (1920x1080)
         and printable on either A4 or US Letter paper. Any text within the diagram
         should be readable at that resolution. </t>
@@ -351,37 +355,41 @@ against complexity.</t>
 list.  Some of these sections are required, as noted.  Those sections
 marked with "*" will be supplied by the RFC Editor during the
 editorial process when necessary. The rules for each of these elements are
-described in more detail below.
-<list>
+described in more detail below.</t>
 
-<t>First-page header                      * [Required]</t>
-<t>Title                                    [Required]</t>
-<t>Abstract                                 [Required]</t>
-<t>RFC Editor or Stream Note              * [Upon request]</t>
-<t>Status of This Memo                    * [Required]</t>
-<t>Copyright Notice                       * [Required]</t>
-<t>Table of Contents                      * [Required]</t>
-<t>Body of the Memo                         [Required]</t>
-   <t><list>
-  <t>1.  Introduction                       [Required]</t>
-  <t>2.  Requirements Language (RFC 2119)</t>
-  <t>3.  ...</t>
-  <t>     MAIN BODY OF THE TEXT</t>
-  <t>6.  ...</t>
-  <t>7.  IANA Considerations                [Required]</t>
-  <t>8.  Internationalization Considerations</t>
-  <t>9.  Security Considerations            [Required]</t>
-  <t>10.  References</t>
-  <t>10.1.  Normative References</t>
-  <t>10.2.  Informative References</t>
-  <t>Appendix A.</t>
-  <t>Appendix B.</t>
-</list></t>
-<t>Acknowledgements</t>
-<t>Contributors</t>
-<t>Index</t>
-<t>Author's Address                         [Required]</t>
- </list></t>
+
+  <figure>
+  <artwork><![CDATA[
+First-page header                      * [Required]
+Title                                    [Required]
+Abstract                                 [Required]
+RFC Editor or Stream Note              * [Upon request]
+Status of This Memo                    * [Required]
+Copyright Notice                       * [Required]
+Table of Contents                      * [Required]
+Body of the Memo                         [Required]
+
+  1.  Introduction                       [Required]
+  2.  Requirements Language (RFC 2119)
+  3.  ...
+       MAIN BODY OF THE TEXT
+  6.  ...
+  7.  IANA Considerations                [Required]
+  8.  Internationalization Considerations
+  9.  Security Considerations            [Required]
+  10.  References
+  10.1.  Normative References
+  10.2.  Informative References
+  Appendix A.
+  Appendix B.
+
+Acknowledgements
+Contributors
+Index
+Author's Address                         [Required]
+
+]]></artwork>
+  </figure>
 
 <t>Within the body of the memo, the order shown above is strongly
 recommended.  Exceptions may be questioned.  Outside the body of the
@@ -515,7 +523,8 @@ self-contained as if there were no Abstract. Similarly, the Abstract should be
 complete in itself.  Given that the Abstract will appear independently in
 announcements and indices, mentions of other RFCs within the Abstract should
 include both an RFC number and either the full or short title.  Any  documents
-that are Updated or Obsoleted by the RFC must be mentioned in the  Abstract.
+that are Updated or Obsoleted by the RFC must be mentioned in the  Abstract if those
+documents offer important provisions of, or reasons for, the RFC.
 These may be presented in a list format if that improves readability.</t>
 
 
@@ -742,18 +751,18 @@ reference entry.</t>
 <t>[RFCXXXX] Last name, First initial., Ed. (if applicable),
              "RFC Title", Stream, Sub-series number (if applicable),
              RFC number, DOI, Date of publication,
-             <eref target="https://www.rfc-editor.org/info/rfc#">https://www.rfc-editor.org/info/rfc#</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc# &gt;</eref>.</t>
 
 <t>Example:</t>
 
 <t>[RFC3080] Rose, M., "The Blocks Extensible Exchange
              Protocol Core," IETF, RFC 3080, DOI 10.17487/RFC3080, March 2001,
-             <eref target="https://www.rfc-editor.org/info/rfc3080">https://www.rfc-editor.org/info/rfc3080</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/rfc3080">&lt;https://www.rfc-editor.org/info/rfc3080 &gt;</eref>.</t>
 
 <t>[RFC8157] Leymann, N., Heidemann, C., Zhang, M., Sarikaya, B., and M.
              Cullen, "Huawei's GRE Tunnel Bonding Protocol", independent,
             RFC 8157, DOI 10.17487/RFC8157, May 2017,
-            <eref target="https://www.rfc-editor.org/info/rfc8157">https://www.rfc-editor.org/info/rfc8157</eref>.</t>
+            <eref target="https://www.rfc-editor.org/info/rfc8157">&lt;https://www.rfc-editor.org/info/rfc8157 &gt;</eref>.</t>
 
 <t>For two authors or editors:</t>
 
@@ -761,14 +770,14 @@ reference entry.</t>
              and First initial. Last name, Ed. (if applicable),
              "RFC Title", Stream, Sub-series number (if applicable),
              RFC number, DOI, Date of publication,
-             <eref target="https://www.rfc-editor.org/info/rfc#">https://www.rfc-editor.org/info/rfc#</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc# &gt;</eref>.</t>
 
 <t>Example:</t>
 
 <t>[RFC6323] Renker, G. and G. Fairhurst, "Sender RTT
              Estimate Option for the Datagram Congestion
              Control Protocol (DCCP)", IETF, RFC 6323, DOI 10.17487/RFC6323, July 2011,
-             <eref target="https://www.rfc-editor.org/info/rfc6323">https://www.rfc-editor.org/info/rfc6323</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/rfc6323">&lt;https://www.rfc-editor.org/info/rfc6323 &gt;</eref>.</t>
 
 <t>For three or more authors or editors:</t>
 
@@ -777,14 +786,14 @@ reference entry.</t>
              and First initial. Last name, Ed. (if applicable),
              "RFC Title", Stream, Sub-series number (if applicable),
              RFC number, DOI, Date of publication,
-             <eref target="https://www.rfc-editor.org/info/rfc#">https://www.rfc-editor.org/info/rfc#</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc# &gt;</eref>.</t>
 
 <t>Example:</t>
 
 <t>[RFC6429] Bashyam, M., Jethanandani, M., and A. Ramaiah,
              "TCP Sender Clarification for Persist
              Condition", IETF, RFC 6429, DOI 10.17487/RFC6429, December 2011,
-             <eref target="https://www.rfc-editor.org/info/rfc6429">https://www.rfc-editor.org/info/rfc6429</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/rfc6429">&gt;https://www.rfc-editor.org/info/rfc6429 &lt;</eref>.</t>
 
 </section>
 <section anchor="referencing-stds-and-bcps" title="Referencing STDs and BCPs">
@@ -803,13 +812,13 @@ the STD or BCP info page is recommended.  The text should appear as follows:</t>
 
 <t>[STDXXX]  Last name, First initial., Ed. (if applicable),
              "RFC Title", Stream, Sub-series number, RFC number, DOI, Date of
-             publication, <eref target="https://www.rfc-editor.org/info/std#">https://www.rfc-editor.org/info/std#</eref>.</t>
+             publication, <eref target="https://www.rfc-editor.org/info/std#">&lt;https://www.rfc-editor.org/info/std# &gt;</eref>.</t>
 
 <t>Example:</t>
 
 <t>[STD72]   Gellens, R. and J. Klensin, "Message Submission
              for Mail", IETF, STD 72, RFC 6409, DOI 10.17487/RFC6409, November 2011,
-             <eref target="https://www.rfc-editor.org/info/std72">https://www.rfc-editor.org/info/std72</eref>.</t>
+             <eref target="https://www.rfc-editor.org/info/std72">&lt;https://www.rfc-editor.org/info/std72 &gt;</eref>.</t>
 
 <t>For an STD or BCP that contains two or more RFCs:</t>
 
@@ -1027,7 +1036,9 @@ information in the Author's Address section.</t>
     <list>
       <t>-00 to -01: Citation tag requirements more tightly specified; index
       moved; new errata URI added; capitalization of working/research group
-      specified; update Abstract guidance</t>
+      specified</t>
+      <t>-01 to -02: update Abstract guidance </t>
+      <t>-02 to -03: updated citation section; changed list styles; added angle brackets to reference examples</t>
     </list>
   </t>
 </section>
