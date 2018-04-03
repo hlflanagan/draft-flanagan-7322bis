@@ -44,7 +44,7 @@
       </address>
     </author>
 
-    <date year="2017" month="September" day="12"/>
+    <date year="2018" month="April" day="03"/>
 
 
 
@@ -139,7 +139,7 @@ precedence over editorial conventions.</t>
 and editor.  The RFC Editor attempts to minimize this conflict for
 RFC publication while continually striving to produce a uniformly
 excellent document series.  The RFC Editor refers to this fundamental
-tension as "editorial balance,"" and maintaining this balance is a
+tension as "editorial balance," and maintaining this balance is a
 continuing concern for the RFC Editor.  There is a prime directive
 that must rule over grammatical conventions: do not change the
 intended meaning of the text.</t>
@@ -715,7 +715,7 @@ tag.  Where there are only normative or informative references, no
 subsection is required; the top-level section should say "Normative
 References" or "Informative References".</t>
 
-<t>Normative references to Internet-Drafts will cause publication of the
+<t>Normative references to Internet Drafts will cause publication of the
 RFC to be suspended until the referenced draft is also ready for
 publication; the RFC Editor will then update the entry to refer to
 the RFC and publish both documents simultaneously.</t>
@@ -750,7 +750,7 @@ reference entry.</t>
 
 <t>[RFCXXXX] Last name, First initial., Ed. (if applicable),
              "RFC Title", Stream, Sub-series number (if applicable),
-             RFC number, DOI, Date of publication,
+             RFC number, RFC DOI, Date of publication,
              <eref target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc# &gt;</eref>.</t>
 
 <t>Example:</t>
@@ -769,7 +769,7 @@ reference entry.</t>
 <t>[RFCXXXX] Last name, First initial., Ed. (if applicable)
              and First initial. Last name, Ed. (if applicable),
              "RFC Title", Stream, Sub-series number (if applicable),
-             RFC number, DOI, Date of publication,
+             RFC number, RFC DOI, Date of publication,
              <eref target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc# &gt;</eref>.</t>
 
 <t>Example:</t>
@@ -785,7 +785,7 @@ reference entry.</t>
              Last name, First initial., Ed. (if applicable),
              and First initial. Last name, Ed. (if applicable),
              "RFC Title", Stream, Sub-series number (if applicable),
-             RFC number, DOI, Date of publication,
+             RFC number, RFC DOI, Date of publication,
              <eref target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc# &gt;</eref>.</t>
 
 <t>Example:</t>
@@ -803,15 +803,17 @@ consist of a single RFC or multiple RFCs.  When an STD or BCP that
 contains multiple RFCs is referenced, the reference entry should
 include ALL of the RFCs comprising that sub-series.  The authors
 should refer to specific RFC numbers as part of the text (not as
-citations) and cite the sub-series number.  Inclusion of the URI to
-the STD or BCP info page is recommended.  The text should appear as follows:</t>
+citations) and cite the sub-series number. Inclusion of the URI to
+the STD or BCP info page is recommended. The reference entry will include
+the DOI(s) associated with the RFCs associated with the sub-series document.
+The text should appear as follows:</t>
 
 <t>See RFC 1034 [STD13].</t>
 
 <t>For an STD or BCP that contains one RFC:</t>
 
-<t>[STDXXX]  Last name, First initial., Ed. (if applicable),
-             "RFC Title", Stream, Sub-series number, RFC number, DOI, Date of
+<t>[STDXXX]  Last name, First initial., Ed. (if applicable), "RFC
+             Title", Stream, Sub-series number, RFC number, RFC DOI, Date of
              publication, <eref target="https://www.rfc-editor.org/info/std#">&lt;https://www.rfc-editor.org/info/std# &gt;</eref>.</t>
 
 <t>Example:</t>
@@ -823,13 +825,13 @@ the STD or BCP info page is recommended.  The text should appear as follows:</t>
 <t>For an STD or BCP that contains two or more RFCs:</t>
 
 <t>[STDXXX]  Last name, First initial., Ed. (if applicable),
-             "RFC Title", Stream, Sub-series number, RFC number, DOI, Date of
-             publication.</t>
+             "RFC Title", Stream, Sub-series number, RFC number, RFC DOI, Date
+             of publication.</t>
 
 <figure><artwork><![CDATA[
          Last name, First initial., Ed. (if applicable)
          and First initial. Last name, Ed. (if applicable),
-         "RFC Title", Stream, Sub-series number, RFC number, DOI,
+         "RFC Title", Stream, Sub-series number, RFC number, RFC DOI,
          Date of publication.
 
          <https://www.rfc-editor.org/info/std#>
@@ -838,7 +840,7 @@ the STD or BCP info page is recommended.  The text should appear as follows:</t>
 <t>Example:</t>
 
 <t>[STD13]   Mockapetris, P., "Domain names - concepts and
-             facilities", IETF, STD 13, RFC 1034, DOI 10.17487/RFC1034, November 1987.</t>
+             facilities", IETF, STD 13, RFC 1034, November 1987.</t>
 
 <figure><artwork><![CDATA[
   Mockapetris, P., "Domain names - implementation and
@@ -851,24 +853,24 @@ the STD or BCP info page is recommended.  The text should appear as follows:</t>
 </section>
 <section anchor="referencing-internet-drafts" title="Referencing Internet-Drafts">
 
-<t>References to Internet-Drafts may only appear as informative
+<t>References to Internet Drafts may only appear as informative
 references.  Given that several revisions of an I-D may be produced
 in a short time frame, references must include the posting date
 (month and year), the full Internet-Draft file name (including the
-version number), and the phrase "Work in Progress".  Authors may
+version number), and the phrase "Internet Draft".  Authors may
 reference multiple versions of an I-D.  If the referenced I-D was
 also later published as an RFC, then that RFC must also be listed.</t>
 
 <t>[SYMBOLIC-TAG]  Last name, First initial., Ed. (if applicable)
                    and First initial. Last name, Ed. (if
-                   applicable), "I-D Title", Work in Progress,
+                   applicable), "I-D Title", Internet Draft,
                    draft-string-NN, Month Year.
 </t>
 
 <t>Example:</t>
 
 <t>[RFC-STYLE] Flanagan, H. and S. Ginoza, "RFC Style Guide",
-               Work in Progress, draft-flanagan-style-01,
+               Internet Draft, draft-flanagan-style-01,
                June 2013.
 </t>
 
@@ -950,6 +952,21 @@ that the RFC only applies to that specific IEEE specification.</t>
     <t>listname mailing list, DD Month YYYY, &lt;URL &gt;.</t>
   </list></t>
 </section>
+
+<section anchor="repositories" title="Referencing Code Repositories">
+  <t>References to online code repositories such as GitHub or SourceForge
+    should be used as informative references only. The reference entry should
+    include the repository title, commit hash or similar release marker if
+    available, date of last commit, and URL.</t>
+    <t>Examples:</t>
+    <figure><artwork><![CDATA[[pysaml] "Python implementation of SAML2", commit 7135d53,
+      6 March 2018, <https://github.com/IdentityPython/pysaml2>.
+
+      [linuxlite] "Linux Lite", 9 March 2018,
+                  <https://sourceforge.net/projects/linuxlite/>.
+      ]]></artwork></figure>
+</section>
+
 
 </section>
 </section>
@@ -1038,7 +1055,10 @@ information in the Author's Address section.</t>
       moved; new errata URI added; capitalization of working/research group
       specified</t>
       <t>-01 to -02: update Abstract guidance </t>
-      <t>-02 to -03: updated citation section; changed list styles; added angle brackets to reference examples</t>
+      <t>-02 to -03: updated citation section; changed list styles; added angle
+      brackets to reference examples; changed I-D reference format; clarified
+      sub-series reference format; added guidance on referencing code
+      repositories</t>
     </list>
   </t>
 </section>

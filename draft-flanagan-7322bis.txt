@@ -5,8 +5,8 @@
 Network Working Group                                        H. Flanagan
 Internet-Draft                                                 S. Ginoza
 Obsoletes: 7322 (if approved)                                 RFC Editor
-Intended status: Informational                        September 12, 2017
-Expires: March 16, 2018
+Intended status: Informational                            April 03, 2018
+Expires: October 5, 2018
 
 
                             RFC Style Guide
@@ -37,11 +37,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on March 16, 2018.
+   This Internet-Draft will expire on October 5, 2018.
 
 Copyright Notice
 
-   Copyright (c) 2017 IETF Trust and the persons identified as the
+   Copyright (c) 2018 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                 [Page 1]
+Flanagan & Ginoza        Expires October 5, 2018                [Page 1]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
    include Simplified BSD License text as described in Section 4.e of
@@ -94,31 +94,31 @@ Table of Contents
        4.8.4.  Internationalization Considerations Section . . . . .  14
        4.8.5.  Security Considerations Section . . . . . . . . . . .  14
        4.8.6.  References Section  . . . . . . . . . . . . . . . . .  15
-     4.9.  Appendices Section  . . . . . . . . . . . . . . . . . . .  20
-     4.10. Acknowledgements Section  . . . . . . . . . . . . . . . .  20
+     4.9.  Appendices Section  . . . . . . . . . . . . . . . . . . .  21
+     4.10. Acknowledgements Section  . . . . . . . . . . . . . . . .  21
      4.11. Contributors Section  . . . . . . . . . . . . . . . . . .  21
      4.12. Index . . . . . . . . . . . . . . . . . . . . . . . . . .  21
-     4.13. Author's Address or Authors' Addresses Section  . . . . .  21
+     4.13. Author's Address or Authors' Addresses Section  . . . . .  22
    5.  Security Considerations . . . . . . . . . . . . . . . . . . .  22
    6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  22
    7.  Change Log  . . . . . . . . . . . . . . . . . . . . . . . . .  22
-   8.  References  . . . . . . . . . . . . . . . . . . . . . . . . .  22
-     8.1.  Normative References  . . . . . . . . . . . . . . . . . .  22
-     8.2.  Informative References  . . . . . . . . . . . . . . . . .  22
+   8.  References  . . . . . . . . . . . . . . . . . . . . . . . . .  23
+     8.1.  Normative References  . . . . . . . . . . . . . . . . . .  23
+     8.2.  Informative References  . . . . . . . . . . . . . . . . .  23
      8.3.  URIs  . . . . . . . . . . . . . . . . . . . . . . . . . .  25
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                 [Page 2]
+Flanagan & Ginoza        Expires October 5, 2018                [Page 2]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
-   Appendix A.  Related Procedures . . . . . . . . . . . . . . . . .  26
-     A.1.  Dispute Resolution  . . . . . . . . . . . . . . . . . . .  26
-     A.2.  Returning an I-D to the Document Stream . . . . . . . . .  26
-     A.3.  Revising This Document and Associated Web Pages . . . . .  26
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  27
+   Appendix A.  Related Procedures . . . . . . . . . . . . . . . . .  27
+     A.1.  Dispute Resolution  . . . . . . . . . . . . . . . . . . .  27
+     A.2.  Returning an I-D to the Document Stream . . . . . . . . .  27
+     A.3.  Revising This Document and Associated Web Pages . . . . .  27
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  28
 
 1.  Introduction
 
@@ -165,9 +165,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                 [Page 3]
+Flanagan & Ginoza        Expires October 5, 2018                [Page 3]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
    o  Correct larger content/clarity issues; flag any unclear passages
@@ -198,7 +198,7 @@ Internet-Draft                  7322-bis                  September 2017
    and editor.  The RFC Editor attempts to minimize this conflict for
    RFC publication while continually striving to produce a uniformly
    excellent document series.  The RFC Editor refers to this fundamental
-   tension as "editorial balance,"" and maintaining this balance is a
+   tension as "editorial balance," and maintaining this balance is a
    continuing concern for the RFC Editor.  There is a prime directive
    that must rule over grammatical conventions: do not change the
    intended meaning of the text.
@@ -221,9 +221,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                 [Page 4]
+Flanagan & Ginoza        Expires October 5, 2018                [Page 4]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
 3.1.  Language
@@ -277,9 +277,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                 [Page 5]
+Flanagan & Ginoza        Expires October 5, 2018                [Page 5]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
    o  avoid hyphenating citations with text (don't use [RFC5011]-style
@@ -333,9 +333,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                 [Page 6]
+Flanagan & Ginoza        Expires October 5, 2018                [Page 6]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
    2.  Citations must be enclosed in square brackets (e.g., "[CITE1]").
@@ -389,9 +389,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                 [Page 7]
+Flanagan & Ginoza        Expires October 5, 2018                [Page 7]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
    abbreviations [ABBR] provides guidance.  Some cases are marginal, and
@@ -445,9 +445,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                 [Page 8]
+Flanagan & Ginoza        Expires October 5, 2018                [Page 8]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
 4.  Structure of an RFC
@@ -501,9 +501,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                 [Page 9]
+Flanagan & Ginoza        Expires October 5, 2018                [Page 9]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
 4.1.  First-Page Header
@@ -557,9 +557,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                [Page 10]
+Flanagan & Ginoza        Expires October 5, 2018               [Page 10]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
 4.1.3.  ISSN: 2070-1721
@@ -613,9 +613,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                [Page 11]
+Flanagan & Ginoza        Expires October 5, 2018               [Page 11]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
    regards to its relationship (in particular, whether it updates or
@@ -669,9 +669,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                [Page 12]
+Flanagan & Ginoza        Expires October 5, 2018               [Page 12]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
 4.7.  Table of Contents Section
@@ -725,9 +725,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                [Page 13]
+Flanagan & Ginoza        Expires October 5, 2018               [Page 13]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
    Imperatives of the type defined in this memo must be used with care
@@ -781,9 +781,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                [Page 14]
+Flanagan & Ginoza        Expires October 5, 2018               [Page 14]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
 4.8.6.  References Section
@@ -837,9 +837,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                [Page 15]
+Flanagan & Ginoza        Expires October 5, 2018               [Page 15]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
    References will generally appear in alphanumeric order by citation
@@ -847,7 +847,7 @@ Internet-Draft                  7322-bis                  September 2017
    subsection is required; the top-level section should say "Normative
    References" or "Informative References".
 
-   Normative references to Internet-Drafts will cause publication of the
+   Normative references to Internet Drafts will cause publication of the
    RFC to be suspended until the referenced draft is also ready for
    publication; the RFC Editor will then update the entry to refer to
    the RFC and publish both documents simultaneously.
@@ -880,8 +880,9 @@ Internet-Draft                  7322-bis                  September 2017
    For one author or editor:
 
    [RFCXXXX] Last name, First initial., Ed. (if applicable), "RFC
-   Title", Stream, Sub-series number (if applicable), RFC number, DOI,
-   Date of publication, <https://www.rfc-editor.org/info/rfc# > [1].
+   Title", Stream, Sub-series number (if applicable), RFC number, RFC
+   DOI, Date of publication, <https://www.rfc-editor.org/info/rfc# >
+   [1].
 
    Example:
 
@@ -892,10 +893,9 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-
-Flanagan & Ginoza        Expires March 16, 2018                [Page 16]
+Flanagan & Ginoza        Expires October 5, 2018               [Page 16]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
    [RFC8157] Leymann, N., Heidemann, C., Zhang, M., Sarikaya, B., and M.
@@ -907,8 +907,8 @@ Internet-Draft                  7322-bis                  September 2017
 
    [RFCXXXX] Last name, First initial., Ed. (if applicable) and First
    initial.  Last name, Ed. (if applicable), "RFC Title", Stream, Sub-
-   series number (if applicable), RFC number, DOI, Date of publication,
-   <https://www.rfc-editor.org/info/rfc# > [4].
+   series number (if applicable), RFC number, RFC DOI, Date of
+   publication, <https://www.rfc-editor.org/info/rfc# > [4].
 
    Example:
 
@@ -922,8 +922,8 @@ Internet-Draft                  7322-bis                  September 2017
    [RFCXXXX] Last name, First initial., Ed. (if applicable), Last name,
    First initial., Ed. (if applicable), and First initial.  Last name,
    Ed. (if applicable), "RFC Title", Stream, Sub-series number (if
-   applicable), RFC number, DOI, Date of publication, <https://www.rfc-
-   editor.org/info/rfc# > [6].
+   applicable), RFC number, RFC DOI, Date of publication,
+   <https://www.rfc-editor.org/info/rfc# > [6].
 
    Example:
 
@@ -940,22 +940,24 @@ Internet-Draft                  7322-bis                  September 2017
    include ALL of the RFCs comprising that sub-series.  The authors
    should refer to specific RFC numbers as part of the text (not as
    citations) and cite the sub-series number.  Inclusion of the URI to
-   the STD or BCP info page is recommended.  The text should appear as
-   follows:
+   the STD or BCP info page is recommended.  The reference entry will
+   include the DOI(s) associated with the RFCs associated with the sub-
+   series document.  The text should appear as follows:
 
    See RFC 1034 [STD13].
 
+
+
+
+Flanagan & Ginoza        Expires October 5, 2018               [Page 17]
+
+Internet-Draft                  7322-bis                      April 2018
+
+
    For an STD or BCP that contains one RFC:
 
-
-
-Flanagan & Ginoza        Expires March 16, 2018                [Page 17]
-
-Internet-Draft                  7322-bis                  September 2017
-
-
    [STDXXX]  Last name, First initial., Ed. (if applicable), "RFC
-   Title", Stream, Sub-series number, RFC number, DOI, Date of
+   Title", Stream, Sub-series number, RFC number, RFC DOI, Date of
    publication, <https://www.rfc-editor.org/info/std# > [8].
 
    Example:
@@ -967,12 +969,12 @@ Internet-Draft                  7322-bis                  September 2017
    For an STD or BCP that contains two or more RFCs:
 
    [STDXXX]  Last name, First initial., Ed. (if applicable), "RFC
-   Title", Stream, Sub-series number, RFC number, DOI, Date of
+   Title", Stream, Sub-series number, RFC number, RFC DOI, Date of
    publication.
 
             Last name, First initial., Ed. (if applicable)
             and First initial. Last name, Ed. (if applicable),
-            "RFC Title", Stream, Sub-series number, RFC number, DOI,
+            "RFC Title", Stream, Sub-series number, RFC number, RFC DOI,
             Date of publication.
 
             <https://www.rfc-editor.org/info/std#>
@@ -980,7 +982,7 @@ Internet-Draft                  7322-bis                  September 2017
    Example:
 
    [STD13]  Mockapetris, P., "Domain names - concepts and facilities",
-   IETF, STD 13, RFC 1034, DOI 10.17487/RFC1034, November 1987.
+   IETF, STD 13, RFC 1034, November 1987.
 
      Mockapetris, P., "Domain names - implementation and
      specification", IETF, STD 13, RFC 1035, DOI 10.17487/RFC1035,
@@ -990,30 +992,32 @@ Internet-Draft                  7322-bis                  September 2017
 
 4.8.6.4.  Referencing Internet-Drafts
 
-   References to Internet-Drafts may only appear as informative
+   References to Internet Drafts may only appear as informative
    references.  Given that several revisions of an I-D may be produced
    in a short time frame, references must include the posting date
    (month and year), the full Internet-Draft file name (including the
-   version number), and the phrase "Work in Progress".  Authors may
+   version number), and the phrase "Internet Draft".  Authors may
    reference multiple versions of an I-D.  If the referenced I-D was
    also later published as an RFC, then that RFC must also be listed.
 
-   [SYMBOLIC-TAG]  Last name, First initial., Ed. (if applicable) and
-   First initial.  Last name, Ed. (if applicable), "I-D Title", Work in
-   Progress, draft-string-NN, Month Year.
 
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                [Page 18]
+
+Flanagan & Ginoza        Expires October 5, 2018               [Page 18]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
+
+   [SYMBOLIC-TAG]  Last name, First initial., Ed. (if applicable) and
+   First initial.  Last name, Ed. (if applicable), "I-D Title", Internet
+   Draft, draft-string-NN, Month Year.
 
    Example:
 
-   [RFC-STYLE] Flanagan, H. and S.  Ginoza, "RFC Style Guide", Work in
-   Progress, draft-flanagan-style-01, June 2013.
+   [RFC-STYLE] Flanagan, H. and S.  Ginoza, "RFC Style Guide", Internet
+   Draft, draft-flanagan-style-01, June 2013.
 
 4.8.6.5.  Referencing Errata
 
@@ -1055,16 +1059,15 @@ Internet-Draft                  7322-bis                  September 2017
    the actual document and that the common, abbreviated form of the SDO
    is used.
 
+
+
+Flanagan & Ginoza        Expires October 5, 2018               [Page 19]
+
+Internet-Draft                  7322-bis                      April 2018
+
+
    Alternatively, when no list of authors is available, the following
    format is recommended:
-
-
-
-
-Flanagan & Ginoza        Expires March 16, 2018                [Page 19]
-
-Internet-Draft                  7322-bis                  September 2017
-
 
    [SYMBOLIC-TAG]  Organization, "Document Title", Document
                       reference number, Date of publication,
@@ -1101,6 +1104,30 @@ Internet-Draft                  7322-bis                  September 2017
 
       listname mailing list, DD Month YYYY, <URL >.
 
+4.8.6.8.  Referencing Code Repositories
+
+   References to online code repositories such as GitHub or SourceForge
+   should be used as informative references only.  The reference entry
+   should include the repository title, commit hash or similar release
+   marker if available, date of last commit, and URL.
+
+   Examples:
+
+
+
+
+
+Flanagan & Ginoza        Expires October 5, 2018               [Page 20]
+
+Internet-Draft                  7322-bis                      April 2018
+
+
+   [pysaml] "Python implementation of SAML2", commit 7135d53,
+         6 March 2018, <https://github.com/IdentityPython/pysaml2>.
+
+         [linuxlite] "Linux Lite", 9 March 2018,
+                     <https://sourceforge.net/projects/linuxlite/>.
+
 4.9.  Appendices Section
 
    The RFC Editor recommends placing references before the Appendices.
@@ -1113,14 +1140,6 @@ Internet-Draft                  7322-bis                  September 2017
    Contributors section.  It is often used by authors to publicly thank
    those who have provided feedback regarding a document and to note any
    documents from which text was borrowed.
-
-
-
-
-Flanagan & Ginoza        Expires March 16, 2018                [Page 20]
-
-Internet-Draft                  7322-bis                  September 2017
-
 
 4.11.  Contributors Section
 
@@ -1147,6 +1166,18 @@ Internet-Draft                  7322-bis                  September 2017
    If included, an index appears at the end of the document, immediately
    before Author's Address section.
 
+
+
+
+
+
+
+
+Flanagan & Ginoza        Expires October 5, 2018               [Page 21]
+
+Internet-Draft                  7322-bis                      April 2018
+
+
 4.13.  Author's Address or Authors' Addresses Section
 
    This required section gives contact information for the author(s)
@@ -1168,16 +1199,6 @@ Internet-Draft                  7322-bis                  September 2017
    the author with questions and/or comments.  Address munging is not
    allowed in RFCs.
 
-
-
-
-
-
-Flanagan & Ginoza        Expires March 16, 2018                [Page 21]
-
-Internet-Draft                  7322-bis                  September 2017
-
-
 5.  Security Considerations
 
    This document has no security considerations.
@@ -1197,7 +1218,21 @@ Internet-Draft                  7322-bis                  September 2017
       -01 to -02: update Abstract guidance
 
       -02 to -03: updated citation section; changed list styles; added
-      angle brackets to reference examples
+      angle brackets to reference examples; changed I-D reference
+      format; clarified sub-series reference format; added guidance on
+      referencing code repositories
+
+
+
+
+
+
+
+
+Flanagan & Ginoza        Expires October 5, 2018               [Page 22]
+
+Internet-Draft                  7322-bis                      April 2018
+
 
 8.  References
 
@@ -1225,15 +1260,6 @@ Internet-Draft                  7322-bis                  September 2017
               ANA Considerations Section in RFCs", BCP 26, RFC 5226, May
               2008, <https://www.rfc-editor.org/info/bcp26>.
 
-
-
-
-
-Flanagan & Ginoza        Expires March 16, 2018                [Page 22]
-
-Internet-Draft                  7322-bis                  September 2017
-
-
    [BCP32]    Eastlake 3rd, D. and A. Panitz, "Reserved Top Level DNS
               Names", BCP 32, RFC 2606, June 1999,
               <https://www.rfc-editor.org/info/bcp32>.
@@ -1254,6 +1280,15 @@ Internet-Draft                  7322-bis                  September 2017
 
               Housley, R., "Conclusion of FYI RFC Sub-Series", RFC 6360,
               August 2011.
+
+
+
+
+
+Flanagan & Ginoza        Expires October 5, 2018               [Page 23]
+
+Internet-Draft                  7322-bis                      April 2018
+
 
    [IAB-FORM]
               IAB, "Format for RFCs in the IAB Stream",
@@ -1280,16 +1315,6 @@ Internet-Draft                  7322-bis                  September 2017
               IETF OPS Area, "Boilerplate for IETF MIB Documents",
               <https://www.ops.ietf.org/mib-boilerplate.html>.
 
-
-
-
-
-
-Flanagan & Ginoza        Expires March 16, 2018                [Page 23]
-
-Internet-Draft                  7322-bis                  September 2017
-
-
    [MIB-SEC]  IETF OPS Area, "Security Guidelines for IETF MIB Modules",
               <https://trac.tools.ietf.org/area/ops/trac/wiki/
               mib-security>.
@@ -1314,6 +1339,13 @@ Internet-Draft                  7322-bis                  September 2017
               Series and RFC Editor", RFC 4844, DOI 10.17487/RFC4844,
               July 2007, <https://www.rfc-editor.org/info/rfc4844>.
 
+
+
+Flanagan & Ginoza        Expires October 5, 2018               [Page 24]
+
+Internet-Draft                  7322-bis                      April 2018
+
+
    [RFC6635]  Kolkman, O., Ed., Halpern, J., Ed., and IAB, "RFC Editor
               Model (Version 2)", RFC 6635, DOI 10.17487/RFC6635, June
               2012, <https://www.rfc-editor.org/info/rfc6635>.
@@ -1334,17 +1366,6 @@ Internet-Draft                  7322-bis                  September 2017
    [RFC7997]  Flanagan, H., Ed., "The Use of Non-ASCII Characters in
               RFCs", RFC 7997, DOI 10.17487/RFC7997, December 2016,
               <https://www.rfc-editor.org/info/rfc7997>.
-
-
-
-
-
-
-
-Flanagan & Ginoza        Expires March 16, 2018                [Page 24]
-
-Internet-Draft                  7322-bis                  September 2017
-
 
    [STD66]    Berners-Lee, T., Fielding, R., and L. Masinter, "Uniform
               Resource Identifier (URI): Generic Syntax", STD 66,
@@ -1373,6 +1394,14 @@ Internet-Draft                  7322-bis                  September 2017
 
    [6] https://www.rfc-editor.org/info/rfc#
 
+
+
+
+Flanagan & Ginoza        Expires October 5, 2018               [Page 25]
+
+Internet-Draft                  7322-bis                      April 2018
+
+
    [7] https://www.rfc-editor.org/info/rfc6429
 
    [8] https://www.rfc-editor.org/info/std#
@@ -1397,9 +1426,36 @@ Internet-Draft                  7322-bis                  September 2017
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                [Page 25]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Flanagan & Ginoza        Expires October 5, 2018               [Page 26]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
 Appendix A.  Related Procedures
@@ -1453,9 +1509,9 @@ A.3.  Revising This Document and Associated Web Pages
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                [Page 26]
+Flanagan & Ginoza        Expires October 5, 2018               [Page 27]
 
-Internet-Draft                  7322-bis                  September 2017
+Internet-Draft                  7322-bis                      April 2018
 
 
 Authors' Addresses
@@ -1509,4 +1565,4 @@ Authors' Addresses
 
 
 
-Flanagan & Ginoza        Expires March 16, 2018                [Page 27]
+Flanagan & Ginoza        Expires October 5, 2018               [Page 28]
